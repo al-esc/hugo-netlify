@@ -5,7 +5,7 @@
 
 [build]
   command = "yarn build"
-  publish = "dist"
+  publish = "public"
 
 [context.deploy-preview]
   command = "yarn build:preview"
