@@ -3,6 +3,7 @@
 	<meta name="generator" content="Hugo 0.62.2" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <title> Restaurant La Senna </title>
     <meta name="description" content="Restaurant La Senna">
     <meta name="keywords" content="">
@@ -11,7 +12,7 @@
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css" >
     <link rel="stylesheet" href="vendor/select2/select2.min.css" >
     
-     
+    
     <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
     
     <link rel="stylesheet" href="css/featherlight.min.css" >
@@ -136,7 +137,7 @@
                         Play Video
                     </a>
                 </div>
-               
+
                 <ul class="hero-info list-unstyled d-flex text-center mb-0">
                     <li class="border-right">
                         <span class="fa fa-rocket fa-2x"></span>
@@ -157,7 +158,7 @@
                         </h5>
                     </li>
                 </ul>
-    
+
             </div>
             <div class="col-lg-6 hero-right">
                 <div class="owl-carousel owl-theme hero-carousel">
@@ -174,7 +175,7 @@
             </div>
         </div>
       </div>
-    </div>	
+    </div>
     
 <section id="gtco-welcome" class="bg-white section-padding">
     <div class="container">
@@ -220,8 +221,8 @@
         </div>
     </div>
 </section>
-		
-    
+	
+
     
 <section id="gtco-special-dishes" class="bg-grey section-padding">
     <div class="container">
@@ -266,7 +267,7 @@
     </div>
 </section>
 
-    
+
     
 <section id="gtco-menu" class="section-padding">
     <div class="container">
@@ -595,7 +596,7 @@
     </div>
 </section>
 
-                                    
+
     
 <section id="gtco-reservation" class="bg-fixed bg-white section-padding overlay" style='background-image: url(img/reservation-bg.jpg);'>
     <div class="container">
@@ -668,6 +669,17 @@
         
     </div>
 </section>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
 <footer class="mastfoot pb-5 bg-white section-padding pb-0">
     <div class="inner container">
          <div class="row">
