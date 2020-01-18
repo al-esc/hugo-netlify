@@ -1,18 +1,18 @@
 # baseURL = "http://example.com/"
-languageCode = "en-us"
+languageCode = "ro"
 title = "Restaurant La Senna"
 theme = "resto-hugo"
-copyright = "</> with <3 by <a target='_blank' href='https://alesc.dev'>alesc.dev</a>" # HTML tags supported
+copyright = "<i class='subheading fas fa-code'></i> with <i class='subheading fas fa-heart'></i> by <a target='_blank' href='https://alesc.dev'>alesc.dev</a>" # HTML tags supported
 # googleAnalytics = "UA-123-45"
 # disqusShortname = "yourdiscussshortname"
 
 # Theme specific configuration
 [params]
-logo = "img/logo.svg"
+logo = "img/logo.png"
 enableDisqus = false # enable / disable comments for blog posts
 enableGA = false # enable / disable google analytics
-heroText = "Descopera <br> Povestea Noastra !"
-footerText = "This area supports HTML code. Text can be edited with <code>footerText</code> value in config.toml"
+heroText = "Restaurant <br> La Senna"
+footerText = "Ramai la curent cu toate noutatile Restaurantului La Senna urmarindu-ne pe retelele de socializare!"
 facebook = "https://facebook.com"
 twitter = "https://twitter.com"
 instagram = "https://instagram.com"
