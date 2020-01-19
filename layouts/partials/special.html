@@ -4,7 +4,7 @@
         <div class="section-content">
             <div class="heading-section text-center">
                 <span class="subheading">
-                    22 RON
+                    {{ .Site.Data.meniu.zilnic.pret }} RON
                 </span>
                 <h2>
                     Meniul Zilei
@@ -15,7 +15,9 @@
                     <h2 class="special-number">01.</h2>
                     <div class="dishes-text">
                         <h3><span>Beef</span><br> Steak Sauce</h3>
-                        <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, ea vero alias perferendis quas animi doloribus voluptates. Atque explicabo ea nesciunt provident libero qui eum, corporis esse quos excepturi soluta?</p>
+                        {{ range (index .Site.Data.meniu.zilnic "feluri-de-mancare") }}
+                            <p class="pt-3">{{ . }}</p>
+                        {{ end }}
                         <h3 class="special-dishes-price">$15.00</h3>
                         <a href="#gtco-reservation" class="btn-primary mt-3">book a table</a>
                     </div>

@@ -10,7 +10,7 @@ collections:
     files:
       - label: "Meniul De Azi"
         name: "meniul-de-azi"
-        file: "data/meniul-zilei/meniu.yml"
+        file: "data/meniu/zilnic.yml"
         fields:
           - {label: "Pret", name: "pret", widget: "number", default: "22"}
           - label: "Feluri de mancare"
