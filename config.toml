@@ -2,6 +2,9 @@
 languageCode = "ro"
 title = "Restaurant La Senna"
 theme = "resto-hugo"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+defaultContentLanguage = "ro"
+disableHugoGeneratorInject = "true"
 copyright = "<i class='subheading fas fa-code'></i> with <i class='subheading fas fa-heart'></i> by <a target='_blank' href='https://alesc.dev'>alesc.dev</a>" # HTML tags supported
 # googleAnalytics = "UA-123-45"
 # disqusShortname = "yourdiscussshortname"
