@@ -6,34 +6,33 @@
             <div class="col-lg-6 hero-left">
                 <h1 class="display-4 mb-5">{{ .Site.Params.heroText | safeHTML }}</h1>
                 <div class="mb-2">
-                    <a class="btn btn-primary btn-shadow btn-lg" href="{{ .Site.BaseURL | absURL }}#gtco-menu" role="button">Explore Menu</a>
-                    <a class="btn btn-icon btn-lg" href="{{.Site.Params.videoUrl}}" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true">
+                    <a class="btn btn-primary btn-shadow btn-lg" href="{{ .Site.BaseURL | absURL }}#gtco-special-dishes" role="button">Meniul Zilei</a>
+                    <a class="btn btn-icon btn-lg" href="{{ .Site.BaseURL | absURL }}#gtco-reservation">
                         <span class="lnr lnr-film-play"></span>
-                        Play Video
+                        Contact
                     </a>
                 </div>
 
                 <ul class="hero-info list-unstyled d-flex text-center mb-0">
                     <li class="border-right">
-                        <span class="fa fa-rocket fa-2x"></span>
+                        <span class="fas fa-rocket fa-2x"></span>
                         <h5>
-                            Fast Delivery
+                            Glovo
                         </h5>
                     </li>
                     <li class="border-right">
-                        <span class="fab fa-envira fa-2x"></span>
+                        <span class="fas fa-utensils fa-2x"></span>
                         <h5>
-                            Fresh Food
+                            UberEats
                         </h5>
                     </li>
                     <li class="">
-                        <span class="far fa-comment fa-2x"></span>
+                        <span class="fas fa-utensil-spoon fa-2x"></span>
                         <h5>
-                            24/7 Support
+                            Foodpanda
                         </h5>
                     </li>
                 </ul>
-
             </div>
             <div class="col-lg-6 hero-right">
                 <div class="owl-carousel owl-theme hero-carousel">
