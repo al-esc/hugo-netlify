@@ -13,15 +13,80 @@
                     {{ .Site.Data.meniu.zilnic.pret }} RON
                 </span>
             </div>
-            {{ range $index, $element := (index .Site.Data.meniu.zilnic "feluri-de-mancare") }}
+            {{ if isset (index .Site.Data.meniu.zilnic "feluri-de-mancare") 0}}
                 <div class="row mt-5">
                     <div class="col-lg-5 col-md-6 align-self-center py-5 order-1">
-                        <h2 class="special-number">0{{add $index 1}}.</h2>
+                        <h2 class="special-number">01.</h2>
                         <div class="dishes-text">
-                            <h3><span>{{ . }}</span></h3>
+                            <h3><span>{{ index (index .Site.Data.meniu.zilnic "feluri-de-mancare") 0 }}</span></h3>
                         </div>
                     </div>
-                    <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0 order-{{ $index }}">
+                    <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0 order-2">
+                        <img src='{{ "img/hero-3.jpg" | absURL }}' alt="" class="img-fluid shadow w-50">
+                    </div>
+                </div>
+            {{ end }}
+            {{ if isset (index .Site.Data.meniu.zilnic "feluri-de-mancare") 1}}
+                <div class="row mt-5">
+                    <div class="col-lg-5 col-md-6 align-self-center py-5 order-2">
+                        <h2 class="special-number">02.</h2>
+                        <div class="dishes-text">
+                            <h3><span>{{ index (index .Site.Data.meniu.zilnic "feluri-de-mancare") 1 }}</span></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0 order-1">
+                        <img src='{{ "img/steak.jpg" | absURL }}' alt="" class="img-fluid shadow w-50">
+                    </div>
+                </div>
+            {{ end }}
+            {{ if isset (index .Site.Data.meniu.zilnic "feluri-de-mancare") 2}}
+                <div class="row mt-5">
+                    <div class="col-lg-5 col-md-6 align-self-center py-5 order-1">
+                        <h2 class="special-number">03.</h2>
+                        <div class="dishes-text">
+                            <h3><span>{{ index (index .Site.Data.meniu.zilnic "feluri-de-mancare") 2 }}</span></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0 order-2">
+                        <img src='{{ "img/hero-2.jpg" | absURL }}' alt="" class="img-fluid shadow w-50">
+                    </div>
+                </div>
+            {{ end }}
+            {{ if isset (index .Site.Data.meniu.zilnic "feluri-de-mancare") 3}}
+                <div class="row mt-5">
+                    <div class="col-lg-5 col-md-6 align-self-center py-5 order-2">
+                        <h2 class="special-number">04.</h2>
+                        <div class="dishes-text">
+                            <h3><span>{{ index (index .Site.Data.meniu.zilnic "feluri-de-mancare") 3 }}</span></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0 order-1">
+                        <img src='{{ "img/steak.jpg" | absURL }}' alt="" class="img-fluid shadow w-50">
+                    </div>
+                </div>
+            {{ end }}
+            {{ if isset (index .Site.Data.meniu.zilnic "feluri-de-mancare") 4}}
+                <div class="row mt-5">
+                    <div class="col-lg-5 col-md-6 align-self-center py-5 order-1">
+                        <h2 class="special-number">04.</h2>
+                        <div class="dishes-text">
+                            <h3><span>{{ index (index .Site.Data.meniu.zilnic "feluri-de-mancare") 4 }}</span></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0 order-2">
+                        <img src='{{ "img/steak.jpg" | absURL }}' alt="" class="img-fluid shadow w-50">
+                    </div>
+                </div>
+            {{ end }}
+            {{ if isset (index .Site.Data.meniu.zilnic "feluri-de-mancare") 5}}
+                <div class="row mt-5">
+                    <div class="col-lg-5 col-md-6 align-self-center py-5 order-2">
+                        <h2 class="special-number">04.</h2>
+                        <div class="dishes-text">
+                            <h3><span>{{ index (index .Site.Data.meniu.zilnic "feluri-de-mancare") 5 }}</span></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0 order-1">
                         <img src='{{ "img/steak.jpg" | absURL }}' alt="" class="img-fluid shadow w-50">
                     </div>
                 </div>
