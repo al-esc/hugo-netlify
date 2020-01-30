@@ -16,6 +16,6 @@ enableDisqus = false # enable / disable comments for blog posts
 enableGA = false # enable / disable google analytics
 heroText = "Restaurant <br> La Senna"
 footerText = "Ramai la curent cu toate noutatile Restaurantului La Senna urmarindu-ne pe retelele de socializare!"
-facebook = "https://facebook.com"
+facebook = "https://www.facebook.com/restaurantlasenna/"
 twitter = "https://twitter.com"
 instagram = "https://instagram.com"
