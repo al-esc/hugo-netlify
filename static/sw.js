@@ -12,7 +12,7 @@ self.addEventListener('install', function(e) {
        '/css/brands.css',
        '/css/featherlight.min.css',
        '/css/style.min.css',
-       '/empusdominus-bootstrap-4.min.css',
+       '/css/tempusdominus-bootstrap-4.min.css',
        '/img/despre-noi.jpg',
        '/img/foodpanda.png',
        '/img/glovo.png',
