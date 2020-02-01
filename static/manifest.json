@@ -1,0 +1,27 @@
+{
+  "short_name": "La Senna",
+  "name": "Restaurant La Senna",
+  "description" : "Restaurant La Senna",
+  "icons": [
+    {
+      "src": "/img/favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/img/favicon-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#fff",
+  "display": "standalone",
+  "theme_color": "#fff",
+  "related_applications": [
+    {
+    "platform": "web",
+    "url": "lasenna.ro"
+    }
+  ]
+}

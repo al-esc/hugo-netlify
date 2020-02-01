@@ -6,6 +6,18 @@
     <meta name="description" content="{{ .Site.Title }}">
     <meta name="keywords" content="{{ .Site.Params.keywords }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="manifest" href="manifest.json">
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js', {
+                scope: '.'
+            });
+        };
+    </script>
+    <link rel="icon"
+          type="image/png"
+          href="/img/favicon.png">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
     <!-- External CSS -->
     <link rel="stylesheet" href="{{ "vendor/bootstrap/bootstrap.min.css" | absURL }}" >
     <link rel="stylesheet" href="{{ "vendor/select2/select2.min.css" | absURL }}" >
