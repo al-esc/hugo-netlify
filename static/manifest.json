@@ -4,14 +4,14 @@
   "description" : "Restaurant La Senna",
   "icons": [
     {
-      "src": "/img/favicon-32x32.png",
+      "src": "/img/favicon-192x192.png",
       "type": "image/png",
-      "sizes": "32x32"
+      "sizes": "192x192"
     },
     {
-      "src": "/img/favicon-96x96.png",
+      "src": "/img/favicon-512x512.png",
       "type": "image/png",
-      "sizes": "96x96"
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",
