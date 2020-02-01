@@ -1,16 +1,21 @@
 backend:
   name: git-gateway
-media_folder: "static/img" # Folder where user uploaded files should go
+media_folder: "static/img"
 public_folder: "/img"
+locale: "ro"
+logo_url: "/img/logo.png"
 
-collections: # A list of collections the CMS should be able to edit
-  - name: "meniul-zilei" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Meniul Zilei" # Used in the UI, ie.: "New Post"
-    folder: "site/content/post" # The path to the folder where the documents are stored
-    create: false # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - {label: "Data Curenta", name: "data", widget: "datetime"}
-      - label: "Meniul Zilei"
-        name: "meniu"
-        widget: "list"
-        field: {label: Element Meniu, name: element, widget: string, default: "Ciorba de Pui / Ciorba de Vaca"}
+collections:
+  - name: "meniul-zilei"
+    label: "Meniul Zilei"
+    files:
+      - label: "Meniul De Azi"
+        name: "meniul-de-azi"
+        file: "data/meniu/zilnic.yml"
+        fields:
+          - {label: "Pret", name: "pret", widget: "number", default: "22"}
+          - label: "Feluri de mancare"
+            name: "feluri-de-mancare"
+            widget: "list"
+            field: {label: Fel de mancare, name: fel-de-mancare, widget: string}
+    delete: false
