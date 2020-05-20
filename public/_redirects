@@ -1,0 +1,5 @@
+# redirect old domain to new
+http://restaurantlasenna.ro/* https://lasenna.ro 301!
+https://restaurantlasenna.ro/* https://lasenna.ro 301!
+http://www.restaurantlasenna.ro/* https://lasenna.ro 301!
+https://www.restaurantlasenna.ro/* https://lasenna.ro 301!
