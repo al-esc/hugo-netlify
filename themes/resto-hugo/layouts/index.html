@@ -1,60 +1,77 @@
 {{define "main"}}
+
 <body data-spy="scroll" data-target="#navbar" class="static-layout">
-       		<div class="hero">
-      <div class="container">
-        <div class="row d-flex align-items-center">
-            <div class="col-lg-6 hero-left">
-                <h1 class="display-4 mb-5">{{ .Site.Params.heroText | safeHTML }}</h1>
-                <div class="mb-2">
-                    <a class="btn btn-primary btn-shadow btn-lg" href="{{ .Site.BaseURL | absURL }}#gtco-special-dishes" role="button">Meniul Zilei</a>
-                    <a class="btn btn-icon btn-lg" href="{{ .Site.BaseURL | absURL }}#gtco-reservation">
-                        <span class="lnr lnr-film-play"></span>
-                        Contact
-                    </a>
-                </div>
-                <div class="mt-5">
-<h5>Restaurant La Senna se redeschide de mâine 15.05.2020 pe partea de livrare între orele 11.00-22.00 </h5>
-<h5>Comenzile pot fi făcute telefonic la numerele <a href="tel:0756199774">0756 199 774</a> / <a href="tel:0212333739">021 233 37 39</a> cu ridicare din locație sau livrate gratuit direct de angajații noștri, dar și pe aplicațiile <b>Takeaway</b> și <b>Foodpanda</b>. </h5>
-<h5>Mulțumim pentru înțelegere!</h5>
-                </div>
-                <ul class="hero-info list-unstyled d-flex text-center mb-0 pt-4">
-                    <li class="border-right">
-                        <a target="_blank" href="https://www.foodpanda.ro/restaurant/v7wl/la-senna"><img class="m-3" style="height:50px" src='{{ "img/foodpanda.png" | absURL }}' alt="foodpanda"></a>
-<!--                         <h5>
+    <div class="hero">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6 hero-left">
+                    <h1 class="display-4 mb-5">{{ .Site.Params.heroText | safeHTML }}</h1>
+                    <div class="mb-2">
+                        <a class="btn btn-primary btn-shadow btn-lg"
+                            href="{{ .Site.BaseURL | absURL }}#gtco-special-dishes" role="button">Meniul Zilei</a>
+                        <a class="btn btn-icon btn-lg" href="{{ .Site.BaseURL | absURL }}#gtco-reservation">
+                            <span class="lnr lnr-film-play"></span>
+                            Formular comandă
+                        </a>
+                    </div>
+                    <div class="mt-5">
+                        <h5><b>Ți-e foame? Nimic mai simplu!</b></h5>
+                        <h5>
+                            Ne poți contacta pentru o comandă la numărul de telefon <a href="tel:0756199774">0756 199
+                                774</a> sau <a href="tel:0212333739">021 233 37 39</a>.
+                        </h5>
+                        <h5>
+                            Preferi să comanzi prin website-ul nostru? Poți deasemenea să ne trimiți o comandă prin <a
+                                href="#gtco-reservation">formularul de contact</a> de mai jos!
+                        </h5>
+                        <h5>
+                            <b>Comenzile pot fi efectuate fie cu ridicare din locație sau livrate gratuit direct de
+                                angajații noștri!</b>
+                        </h5>
+                        <h5>
+                            Ne găsești și pe aplicațiile <b>Takeaway</b> sau <b>Foodpanda</b>! Apasă pe iconița
+                            aplicației pentru a fi redirecționat.
+                        </h5>
+                        <h5>Mulțumim pentru înțelegere!</h5>
+                    </div>
+                    <ul class="hero-info list-unstyled d-flex text-center mb-0 pt-4">
+                        <li class="border-right">
+                            <a target="_blank" href="https://www.foodpanda.ro/restaurant/v7wl/la-senna"><img class="m-3"
+                                    style="height:50px" src='{{ "img/foodpanda.png" | absURL }}' alt="foodpanda"></a>
+                            <!--                         <h5>
                             Foodpanda
                         </h5> -->
-                    </li>
-                    <li class="border-right">
-                        <a target="_blank" href="https://www.takeaway.com/ro/la-senna"><img class="m-3" style="height:50px" src='{{ "img/takeaway.png" | absURL }}' alt="takeaway"></a>
-<!--                         <h5>
+                        </li>
+                        <li class="border-right">
+                            <a target="_blank" href="https://www.takeaway.com/ro/la-senna"><img class="m-3"
+                                    style="height:50px" src='{{ "img/takeaway.png" | absURL }}' alt="takeaway"></a>
+                            <!--                         <h5>
                             Takeaway
                         </h5> -->
-                    </li>
-<!--                     <li class="">
+                        </li>
+                        <!--                     <li class="">
                         <a target="_blank" href=""><img class="m-3" style="height:50px" src='{{ "img/glovo.png" | absURL }}' alt="glovo"></a>
                          <h5>
                             Glovo
                         </h5>
                     </li> -->
-                </ul>
-                <h6 class="mt-3">Experienta La Senna, din confortul canapelei!</h6>
-
-            </div>
-            <div class="col-lg-6 hero-right">
-                <div class="owl-carousel owl-theme hero-carousel">
-                    <div class="item">
-                        <img class="img-fluid" src='{{ "img/header.jpg" | absURL }}' alt="">
-                    </div>
-                    <div class="item">
-                        <img class="img-fluid" src='{{ "img/top2.jpg" | absURL }}' alt="">
-                    </div>
-                    <div class="item">
-                        <img class="img-fluid" src='{{ "img/top.jpg" | absURL }}' alt="">
+                    </ul>
+                </div>
+                <div class="col-lg-6 hero-right">
+                    <div class="owl-carousel owl-theme hero-carousel">
+                        <div class="item">
+                            <img class="img-fluid" src='{{ "img/header.jpg" | absURL }}' alt="">
+                        </div>
+                        <div class="item">
+                            <img class="img-fluid" src='{{ "img/top2.jpg" | absURL }}' alt="">
+                        </div>
+                        <div class="item">
+                            <img class="img-fluid" src='{{ "img/top.jpg" | absURL }}' alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-      </div>
     </div>
     {{ partial "about.html" . }}
 
@@ -68,14 +85,14 @@
 
     {{ partial "reserve.html" . }}
     <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                        document.location.href = "/admin/";
+                    });
+                }
             });
-          }
-        });
-      }
+        }
     </script>
-{{ end }}
+    {{ end }}
