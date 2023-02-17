@@ -8,10 +8,6 @@
                     <h1 class="display-4 mb-5">{{ .Site.Params.heroText | safeHTML }}</h1>
                     <div class="mb-2">
                         <a class="btn btn-primary btn-shadow btn-lg" href="{{ .Site.BaseURL | absURL }}#gtco-special-dishes" role="button">Meniul Zilei</a>
-                        <a class="btn btn-icon btn-lg" href="{{ .Site.BaseURL | absURL }}#gtco-reservation">
-                            <span class="lnr lnr-film-play"></span>
-                            Formular comandă
-                        </a>
                     </div>
                     <div class="mt-5">
                         <h5><b>Ți-e foame? Nimic mai simplu!</b></h5>
@@ -82,7 +78,7 @@
 
     <!-- {{ partial "team.html" . }} -->
 
-    {{ partial "reserve.html" . }}
+<!--    {{ partial "reserve.html" . }}-->
     <script>
         if (window.netlifyIdentity) {
             window.netlifyIdentity.on("init", user => {
