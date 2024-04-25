@@ -1,9 +1,7 @@
 pret: 35
 feluri-de-mancare:
-  - "Ciorba de pui ala greque/Supă de roșii "
-  - "Pui cu ciuperci, smântână și mămăligă/șnițel pane de pui/friptură de porc
-    la tavă "
-  - "Cartofi senna "
-  - "Salata de varza cu morcovi "
-  - Ciulama de ciuperci(POST)
-  - "Pandișpan cu vișine "
+  - Ciorba de curcan/Crema de legume
+  - Piept de pui la gratar/Șnițel pane de porc/Tocanita de porc/Orez cu
+    legume(POST)
+  - Orez cu legume
+  - Salata de varza alba
