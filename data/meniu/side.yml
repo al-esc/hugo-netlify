@@ -9,7 +9,7 @@ side:
 
   - name: "SALATA ASORTATA DE VARA"
     weight: "200g"
-    price: "15"
+    price: "19"
 
   - name: "SALATA VERDE CU LAMAIE"
     weight: "150g"
@@ -17,15 +17,15 @@ side:
 
   - name: "SALATA DE ROSII CU TELEMEA"
     weight: "200g"
-    price: "10"
+    price: "12"
 
   - name: "SALATA DE SFECLA CU HREAN"
     weight: "150g"
-    price: "10"
+    price: "12"
 
   - name: "SALATA DE ARDEI COPTI"
     weight: "150g"
-    price: "12"
+    price: "14"
 
   - name: "SALATA DE MURATURI"
     weight: "150g"

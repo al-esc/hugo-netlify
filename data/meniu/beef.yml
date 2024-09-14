@@ -11,7 +11,7 @@ beef:
 
   - name: "MUSCHI DE VITA CU SPARANGHEL SI SOS TARTUFO"
     weight: "350g"
-    price: "95"
+    price: "100"
     description: "muschi de vita, sparanghel, unt, ulei de trufe, piure de trufe"
 
   - name: "ANTRICOT DE VITEL MATURAT"
@@ -21,8 +21,8 @@ beef:
 
   - name: "FETINA DI FILETTO"
     weight: "400g"
-    price: "80"
-    description: "muschi de vita, sparanghel, mix salata, sos cimiciuri"
+    price: "85"
+    description: "muschi de vita, sparanghel, mix salata, sos chimichurri"
 
   - name: "MUSCHI DE VITA LA GRATAR"
     weight: "200g"
@@ -47,7 +47,7 @@ beef:
     price: "39"
     description: "vrabioara de vita, legume fresh, branza cedar, valeriana, cartofi prajiti"
 
-  - name: "MUSCHI DE VITA CHATOBLIAN CU USTUROI SI ROSII COAPTE"
+  - name: "MUSCHI DE VITA CHATEAUBRIAND CU USTUROI SI ROSII COAPTE"
     weight: "500g"
     price: "150"
-    description: "vita Chatoblian, cafe de Paris, rosii deshidratate, usturoi copt"
+    description: "muschi de vita, cafe de Paris, rosii deshidratate, usturoi copt"

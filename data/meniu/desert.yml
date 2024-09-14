@@ -1,16 +1,17 @@
 desert:
   - name: "CHEESECAKE"
     weight: "200g"
-    price: "20"
+    price: "25"
 
   - name: "PAPANASI CU SMANTANA SI DULCEATA"
     weight: "400g"
-    price: "20"
+    price: "25"
+    description: "(afine sau visine)"
+
+  - name: "SUFLE DE CIOCOLATA CU INGHETATA"
+    weight: "250g"
+    price: "25"
 
   - name: "TORTUL CASEI"
     weight: "150g"
     price: "25"
-
-  - name: "SUFLE DE CIOCOLATA CU INGHETATA"
-    weight: "250g"
-    price: "20"

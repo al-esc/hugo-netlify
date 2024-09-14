@@ -1,28 +1,28 @@
 soups:
   - name: "CIORBA TARANEASCA DE VACUTA"
     weight: "400g"
-    price: "24"
+    price: "26"
     description: "smantana, ardei iute"
 
   - name: "CIORBA DE PUI A LA GREC"
     weight: "400g"
-    price: "24"
+    price: "26"
     description: "smantana, ardei iute"
 
   - name: "CIORBA DE BURTA"
     weight: "400g"
-    price: "24"
+    price: "26"
     description: "smantana, ardei iute"
 
   - name: "CIORBA DE PERISOARE"
     weight: "400g"
-    price: "24"
+    price: "26"
     description: "smantana, ardei iute"
 
   - name: "SUPA DE PUI CU TAITEI DE CASA"
     weight: "360g"
-    price: "20"
+    price: "22"
 
   - name: "SUPA CREMA DE ROSII CU CRUTOANE"
     weight: "360g"
-    price: "20"
+    price: "22"

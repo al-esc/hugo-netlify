@@ -6,11 +6,11 @@ poultry:
 
   - name: "PUISOR LA CEAUN CU PIURE LA SENNA SI TZATZIKI"
     weight: "750g"
-    price: "55"
+    price: "60"
 
   - name: "PUISOR LA JAR CU MUJDEI DE USTUROI SI ROSII COAPTE"
     weight: "650g"
-    price: "49"
+    price: "60"
 
   - name: "SNITEL CROCANT DIN PIEPT DE CURCAN CU SOS AROMAT"
     weight: "300g"
@@ -18,7 +18,7 @@ poultry:
 
   - name: "SNITEL PANE DE CURCAN"
     weight: "200g"
-    price: "32"
+    price: "35"
 
   - name: "PIEPT DE CURCAN LA GRATAR"
     weight: "200g"
@@ -26,7 +26,7 @@ poultry:
 
   - name: "PIEPT DE PUI LA GRATAR"
     weight: "200g"
-    price: "20"
+    price: "22"
 
   - name: "SNITEL CROCANT DE PUI"
     weight: "300g"
@@ -38,16 +38,16 @@ poultry:
 
   - name: "PULPE DE PUI DEZOSATE LA GRATAR"
     weight: "200g"
-    price: "20"
+    price: "22"
 
   - name: "TIGAIE DE PUI CU PIURE LA SENNA"
     weight: "500g"
-    price: "35"
+    price: "39"
     description: "piept de pui, ardei california, usturoi, ardei iute, sos de rosii"
 
   - name: "TIGAIE DE CURCAN CU PIURE LA SENNA"
     weight: "500g"
-    price: "42"
+    price: "45"
     description: "piept de curcan, ardei california, usturoi, ardei iute, sos de rosii"
 
   - name: "JUMARI DE PUI DULCE/PICANT CU CHIPSURI DE CARTOFI"

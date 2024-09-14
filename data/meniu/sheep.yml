@@ -1,7 +1,7 @@
 sheep:
   - name: "MUSCHIULET DE OAIE CU MAMALIGA SI MUJDEI"
     weight: "400g"
-    price: "50"
+    price: "59"
 
   - name: "CARNE DE OAIE CU HUMUS SI CONDIMENTE MAROCANE"
     weight: "250g"
@@ -9,8 +9,8 @@ sheep:
 
   - name: "PASTRAMA DE OAIE CU MAMALIGA"
     weight: "450g"
-    price: "39"
+    price: "49"
 
   - name: "CARNATI DE PLESCOI"
     weight: "200g"
-    price: "25"
+    price: "29"

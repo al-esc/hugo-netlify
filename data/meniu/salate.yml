@@ -19,10 +19,10 @@ salate:
     price: "35"
     description: "mix de salata, castraveti, rosii, ardei california, branza feta, masline, pita aromata"
 
-  - name: "SALATA TON PROASPAT ROSU"
+  - name: "SALATA CU TON PROASPAT ROSU"
     weight: "250g"
     price: "45"
-    description: "mix de salata, rosii cherry, avocado, capere, ceapa rosie, ou prepelita, ton rosu"
+    description: "mix de salata, rosii cherry, avocado, capere, ceapa rosie, ou de prepelita, ton rosu"
 
   - name: "MOZZARELLA CAPRESE"
     weight: "300g"
