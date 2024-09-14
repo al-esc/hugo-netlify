@@ -21,7 +21,7 @@ collections:
   - name: "meniu"
     label: "Meniu La Senna"
     files:
-      - name: "pasta"
+      - name: "pasta-dishes"
         label: "Paste"
         file: "data/meniu/pasta.yml"
         fields:

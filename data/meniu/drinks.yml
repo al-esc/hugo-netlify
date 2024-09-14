@@ -1,3 +1,4 @@
+drinks:
   - name: "WHISKEY (40ML.)"
     items:
       - {name: "JOHNNIE WALKER RED LABEL 40%", price: "15"}
