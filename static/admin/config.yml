@@ -6,8 +6,21 @@ locale: "ro"
 logo_url: "/img/logo.png"
 
 collections:
-  - label: "Paste"
-    name: "pasta"
+  - name: "meniul-zilei"
+    label: "Meniul Zilei"
+    files:
+      - label: "Meniul De Azi"
+        name: "meniul-de-azi"
+        file: "data/meniu/zilnic.yml"
+        fields:
+          - {label: "Pret", name: "pret", widget: "number", default: "22"}
+          - label: "Feluri de mancare"
+            name: "feluri-de-mancare"
+            widget: "list"
+            field: {label: "Fel de mancare", name: "fel-de-mancare", widget: string}
+    delete: false
+  - name: "pasta"
+    label: "Paste"
     files:
       - label: "Meniu Paste"
         name: "pasta"
@@ -17,8 +30,8 @@ collections:
           - {label: "Ingrediente", name: "description", widget: "text"}
           - {label: "Gramaj", name: "weight", widget: "string"}
           - {label: "Pret", name: "price", widget: "string"}
-  - label: "Lacto-Vegetariene"
-    name: "lacto-vegetarian-products"
+  - name: "lacto-vegetarian-products"
+    label: "Lacto-Vegetariene"
     files:
       - label: "Meniu Lacto-Vegetarian"
         name: "lacto-vegetarian-products"
@@ -28,8 +41,8 @@ collections:
           - {label: "Ingrediente", name: "description", widget: "text"}
           - {label: "Gramaj", name: "weight", widget: "string"}
           - {label: "Pret", name: "price", widget: "string"}
-  - label: "Starter"
-    name: "starter-dishes"
+  - name: "starter-dishes"
+    label: "Starter"
     files:
       - label: "Meniu Starter"
         name: "starter-dishes"
@@ -39,8 +52,8 @@ collections:
           - {label: "Ingrediente", name: "description", widget: "text"}
           - {label: "Gramaj", name: "weight", widget: "string"}
           - {label: "Pret", name: "price", widget: "string"}
-  - label: "Oaie"
-    name: "sheep-dishes"
+  - name: "sheep-dishes"
+    label: "Oaie"
     files:
       - label: "Meniu Oaie"
         name: "sheep-dishes"
@@ -50,8 +63,8 @@ collections:
           - {label: "Ingrediente", name: "description", widget: "text"}
           - {label: "Gramaj", name: "weight", widget: "string"}
           - {label: "Pret", name: "price", widget: "string"}
-  - label: "Peste"
-    name: "fish-dishes"
+  - name: "fish-dishes"
+    label: "Peste"
     files:
       - label: "Meniu Peste"
         name: "fish-dishes"
@@ -61,8 +74,8 @@ collections:
           - {label: "Ingrediente", name: "description", widget: "text"}
           - {label: "Gramaj", name: "weight", widget: "string"}
           - {label: "Pret", name: "price", widget: "string"}
-  - label: "Pasare"
-    name: "poultry-dishes"
+  - name: "poultry-dishes"
+    label: "Pasare"
     files:
       - label: "Meniu Pasare"
         name: "poultry-dishes"
@@ -72,8 +85,8 @@ collections:
           - {label: "Ingrediente", name: "description", widget: "text"}
           - {label: "Gramaj", name: "weight", widget: "string"}
           - {label: "Pret", name: "price", widget: "string"}
-  - label: "Salate Aperitiv"
-    name: "salad-dishes"
+  - name: "salad-dishes"
+    label: "Salate Aperitiv"
     files:
       - label: "Meniu Salate"
         name: "salad-dishes"
@@ -83,8 +96,8 @@ collections:
           - {label: "Ingrediente", name: "description", widget: "text"}
           - {label: "Gramaj", name: "weight", widget: "string"}
           - {label: "Pret", name: "price", widget: "string"}
-  - label: "Supe / Ciorbe"
-    name: "soup-dishes"
+  - name: "soup-dishes"
+    label: "Supe / Ciorbe"
     files:
       - label: "Meniu Supe / Ciorbe"
         name: "soup-dishes"
@@ -94,8 +107,8 @@ collections:
           - {label: "Ingrediente", name: "description", widget: "text"}
           - {label: "Gramaj", name: "weight", widget: "string"}
           - {label: "Pret", name: "price", widget: "string"}
-  - label: "Garnituri"
-    name: "side-dishes"
+  - name: "side-dishes"
+    label: "Garnituri"
     files:
       - label: "Meniu Garnituri"
         name: "side-dishes"
@@ -105,8 +118,8 @@ collections:
           - {label: "Ingrediente", name: "description", widget: "text"}
           - {label: "Gramaj", name: "weight", widget: "string"}
           - {label: "Pret", name: "price", widget: "string"}
-  - label: "Bauturi"
-    name: "drinks"
+  - name: "drinks"
+    label: "Bauturi"
     files:
       - label: "Meniu Bauturi"
         name: "drinks"
@@ -129,16 +142,3 @@ collections:
                   - label: "Pret Bautura"
                     name: "price"
                     widget: "string"
-  - name: "meniul-zilei"
-    label: "Meniul Zilei"
-    files:
-      - label: "Meniul De Azi"
-        name: "meniul-de-azi"
-        file: "data/meniu/zilnic.yml"
-        fields:
-          - {label: "Pret", name: "pret", widget: "number", default: "22"}
-          - label: "Feluri de mancare"
-            name: "feluri-de-mancare"
-            widget: "list"
-            field: {label: "Fel de mancare", name: "fel-de-mancare", widget: string}
-    delete: false
