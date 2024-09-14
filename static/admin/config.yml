@@ -94,17 +94,6 @@ collections:
           - {label: "Ingrediente", name: "description", widget: "text"}
           - {label: "Gramaj", name: "weight", widget: "string"}
           - {label: "Pret", name: "price", widget: "string"}
-  - label: "Peste"
-    name: "fish-dishes"
-    files:
-      - label: "Meniu Peste"
-        name: "fish-dishes"
-        file: "data/meniu/fish.yml"
-        fields:
-          - {label: "Nume", name: "name", widget: "string"}
-          - {label: "Ingrediente", name: "description", widget: "text"}
-          - {label: "Gramaj", name: "weight", widget: "string"}
-          - {label: "Pret", name: "price", widget: "string"}
   - label: "Garnituri"
     name: "side-dishes"
     files:
