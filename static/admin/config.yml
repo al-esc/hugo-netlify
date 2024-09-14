@@ -21,21 +21,12 @@ collections:
   - name: "meniu"
     label: "Meniu La Senna"
     files:
-      - label: "Meniul Zilei"
-        name: "meniul-de-azi"
-        file: "data/meniu/zilnic.yml"
-        fields:
-          - {label: "Pret", name: "pret", widget: "number", default: "22"}
-          - label: "Feluri de mancare"
-            name: "feluri-de-mancare"
-            widget: "list"
-            field: {label: "Fel de mancare", name: "fel-de-mancare", widget: string}
       - name: "pasta"
         label: "Paste"
         file: "data/meniu/pasta.yml"
         fields:
           - label: "Meniu Paste"
-            name: "pasta_items"
+            name: "pasta"
             widget: "list"
             fields:
               - {label: "Nume", name: "name", widget: "string"}
@@ -47,7 +38,7 @@ collections:
         file: "data/meniu/vegan.yml"
         fields:
           - label: "Meniu Lacto-Vegetarian"
-            name: "vegan_items"
+            name: "vegan"
             widget: "list"
             fields:
               - {label: "Nume", name: "name", widget: "string"}
@@ -59,7 +50,7 @@ collections:
         file: "data/meniu/starter.yml"
         fields:
           - label: "Meniu Starter"
-            name: "starter_items"
+            name: "starter"
             widget: "list"
             fields:
               - {label: "Nume", name: "name", widget: "string"}
@@ -71,7 +62,7 @@ collections:
         file: "data/meniu/sheep.yml"
         fields:
           - label: "Meniu Oaie"
-            name: "sheep_items"
+            name: "sheep"
             widget: "list"
             fields:
               - {label: "Nume", name: "name", widget: "string"}
@@ -83,7 +74,7 @@ collections:
         file: "data/meniu/fish.yml"
         fields:
           - label: "Meniu Peste"
-            name: "fish_items"
+            name: "fish"
             widget: "list"
             fields:
               - {label: "Nume", name: "name", widget: "string"}
@@ -95,7 +86,7 @@ collections:
         file: "data/meniu/poultry.yml"
         fields:
           - label: "Meniu Pasare"
-            name: "poultry_items"
+            name: "poultry"
             widget: "list"
             fields:
               - {label: "Nume", name: "name", widget: "string"}
@@ -107,7 +98,7 @@ collections:
         file: "data/meniu/salate.yml"
         fields:
           - label: "Meniu Salate"
-            name: "salad_items"
+            name: "salate"
             widget: "list"
             fields:
               - {label: "Nume", name: "name", widget: "string"}
@@ -119,7 +110,7 @@ collections:
         file: "data/meniu/soups.yml"
         fields:
           - label: "Meniu Supe / Ciorbe"
-            name: "soup_items"
+            name: "soups"
             widget: "list"
             fields:
               - {label: "Nume", name: "name", widget: "string"}
@@ -131,7 +122,7 @@ collections:
         file: "data/meniu/side.yml"
         fields:
           - label: "Meniu Garnituri"
-            name: "side_items"
+            name: "side"
             widget: "list"
             fields:
               - {label: "Nume", name: "name", widget: "string"}
@@ -143,7 +134,7 @@ collections:
         file: "data/meniu/drinks.yml"
         fields:
           - label: "Categorii Bauturi"
-            name: "drink_categories"
+            name: "drinks"
             widget: "list"
             fields:
               - label: "Nume Categorie"
