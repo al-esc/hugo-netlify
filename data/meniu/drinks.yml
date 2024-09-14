@@ -4,10 +4,10 @@ drinks:
       - {name: "JOHNNIE WALKER RED LABEL 40%", price: "15"}
       - {name: "JOHNNIE WALKER BLACK LABEL 12 YO 40%", price: "20"}
       - {name: "SINGLETON OF DUFFTON 12 YO 40%", price: "20"}
-      - {name: "CARDHU 12 YO 40%", price: "24"}
       - {name: "TALISKER 10 YO 45,8%", price: "29"}
       - {name: "BUSHMILLS IRISH 40%", price: "15"}
-      - {name: "BULLEIT BOURBON 45%", price: "17"}
+      - {name: "BULLEIT BOURBON 45%", price: "20"}
+      - {name: "GLENMORANGIE 12 YO 43%", price: "29"}
 
   - name: "VODKA (40ML.)"
     items:
@@ -17,23 +17,23 @@ drinks:
 
   - name: "GIN (40ML.)"
     items:
-      - {name: "GORDON'S DRY 37,5%", price: "10"}
-      - {name: "GORDON'S PINK 37,5%", price: "10"}
+      - {name: "GORDON'S DRY 37,5%", price: "15"}
+      - {name: "GORDON'S PINK 37,5%", price: "15"}
       - {name: "TANQUERAY LONDON DRY 43,1%", price: "15"}
       - {name: "TANQUERAY RANGPUR 43,1%", price: "15"}
       - {name: "TANQUERAY SEVILLA 41,3%", price: "15"}
-      - {name: "TANQUERAY 0%", price: "11"}
+      - {name: "TANQUERAY 0.0% (non-alcoholic)", price: "11"}
 
   - name: "RUM (40ML.)"
     items:
       - {name: "CAPTAIN MORGAN SPICED GOLD 35%", price: "15"}
-      - {name: "PAMPERO ANIVERSARIO 40%", price: "20"}
+      - {name: "PAMPERO ANIVERSARIO 40%", price: "25"}
       - {name: "ZACAPA 23 YO 40%", price: "35"}
 
   - name: "COGNACS (40ML.)"
     items:
+      - {name: "MARTELL VS 40%", price: "25"}
       - {name: "BRANCOVEANU XO 40%", price: "36"}
-      - {name: "MARTELL VS 40%", price: "20"}
 
   - name: "TEQUILA (40ML.)"
     items:
@@ -41,26 +41,26 @@ drinks:
 
   - name: "APERITIVES & DIGESTIVES (40ML.)"
     items:
-      - {name: "APEROL 11%", price: "14"}
+      - {name: "APEROL 11%", price: "15"}
       - {name: "BAILEYS 17%", price: "15"}
-      - {name: "CAMPARI 25%", price: "14"}
+      - {name: "CAMPARI 25%", price: "15"}
       - {name: "CINZANO ROSSO / BIANCO 15%", price: "10"}
       - {name: "AMARETTO DISARONNO 28%", price: "15"}
       - {name: "JAGERMEISTER 35%", price: "15"}
 
   - name: "DISTILERIILE BRAN (40ML.)"
     items:
-      - {name: "PALINCA PRUNE 50%", price: "15"}
-      - {name: "PALINCA GUTUI / CAISE 40%", price: "19"}
-      - {name: "RACHIU PRUNE 37,5%", price: "13"}
-      - {name: "AFINATA / CAISATA / VISINATA 30%", price: "13"}
+      - {name: "PALINCA PRUNE 50%", price: "18"}
+      - {name: "PALINCA GUTUI / CAISE 40%", price: "20"}
+      - {name: "RACHIU PRUNE 37,5%", price: "15"}
+      - {name: "AFINATA / VISINATA / CAISATA 30%", price: "15"}
       - {name: "SAMARO (LICHIOR NUCI VERZI) 35%", price: "15"}
 
   - name: "APERITIVO MOMENTS"
     items:
-      - {name: "APEROL SPRITZ (300ML.)", price: "28"}
-      - {name: "CAMPARI SPRITZ (300ML.)", price: "28"}
-      - {name: "CRODINO NON-ALCOHOLIC APERITIVO (175ML.)", price: "25"}
+      - {name: "APEROL SPRITZ (300ML)", price: "28"}
+      - {name: "CAMPARI SPRITZ (300ML)", price: "28"}
+      - {name: "CRODINO NON-ALCOHOLIC APERITIVO (175ML)", price: "25"}
 
   - name: "GIN & TONICS (300ML.)"
     items:
@@ -73,18 +73,17 @@ drinks:
 
   - name: "LONG DRINKS & COCKTAILS (300ML.)"
     items:
-      - {name: "NEGRONI", price: "28"}
-      - {name: "COSMOPOLITAN", price: "28"}
-      - {name: "HUGO", price: "28"}
-      - {name: "AMARETTO SOUR", price: "28"}
-      - {name: "CUBA LIBRE", price: "28"}
-      - {name: "CAMPARI TONIC", price: "28"}
-      - {name: "CAMPARI ORANGE", price: "28"}
-      - {name: "HIGHBALL", price: "28"}
-      - {name: "WHISKY - APPLE / COLA / ENERGY", price: "28"}
-      - {name: "VODKA - ORANGE / CRANBERRY / APPLE / TONIC / COLA / ENERGY", price: "28"}
-      - {name: "FIZZOJITO", price: "28"}
-      - {name: "MOJITO", price: "28"}
+    - {name: "MOJITO", price: "30"}
+    - {name: "NEGRONI", price: "30"}
+    - {name: "COSMOPOLITAN", price: "30"}
+    - {name: "HUGO", price: "30"}
+    - {name: "AMARETTO SOUR", price: "30"}
+    - {name: "CUBA LIBRE", price: "30"}
+    - {name: "CAMPARI TONIC", price: "30"}
+    - {name: "CAMPARI ORANGE", price: "30"}
+    - {name: "HIGHBALL", price: "30"}
+    - {name: "WHISKY - APPLE / COLA / ENERGY", price: "30"}
+    - {name: "VODKA - ORANGE / CRANBERRY / APPLE / TONIC / COLA / ENERGY", price: "30"}
 
   - name: "NON ALCOHOLIC COCKTAILS (300ML.)"
     items:
