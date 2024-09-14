@@ -6,6 +6,140 @@ locale: "ro"
 logo_url: "/img/logo.png"
 
 collections:
+  - label: "Paste"
+    name: "pasta"
+    files:
+      - label: "Meniu Paste"
+        name: "pasta"
+        file: "data/meniu/pasta.yml"
+        fields:
+          - {label: "Nume", name: "name", widget: "string"}
+          - {label: "Ingrediente", name: "description", widget: "text"}
+          - {label: "Gramaj", name: "weight", widget: "string"}
+          - {label: "Pret", name: "price", widget: "string"}
+  - label: "Lacto-Vegetariene"
+    name: "lacto-vegetarian-products"
+    files:
+      - label: "Meniu Lacto-Vegetarian"
+        name: "lacto-vegetarian-products"
+        file: "data/meniu/vegan.yml"
+        fields:
+          - {label: "Nume", name: "name", widget: "string"}
+          - {label: "Ingrediente", name: "description", widget: "text"}
+          - {label: "Gramaj", name: "weight", widget: "string"}
+          - {label: "Pret", name: "price", widget: "string"}
+  - label: "Starter"
+    name: "starter-dishes"
+    files:
+      - label: "Meniu Starter"
+        name: "starter-dishes"
+        file: "data/meniu/starter.yml"
+        fields:
+          - {label: "Nume", name: "name", widget: "string"}
+          - {label: "Ingrediente", name: "description", widget: "text"}
+          - {label: "Gramaj", name: "weight", widget: "string"}
+          - {label: "Pret", name: "price", widget: "string"}
+  - label: "Oaie"
+    name: "sheep-dishes"
+    files:
+      - label: "Meniu Oaie"
+        name: "sheep-dishes"
+        file: "data/meniu/sheep.yml"
+        fields:
+          - {label: "Nume", name: "name", widget: "string"}
+          - {label: "Ingrediente", name: "description", widget: "text"}
+          - {label: "Gramaj", name: "weight", widget: "string"}
+          - {label: "Pret", name: "price", widget: "string"}
+  - label: "Peste"
+    name: "fish-dishes"
+    files:
+      - label: "Meniu Peste"
+        name: "fish-dishes"
+        file: "data/meniu/fish.yml"
+        fields:
+          - {label: "Nume", name: "name", widget: "string"}
+          - {label: "Ingrediente", name: "description", widget: "text"}
+          - {label: "Gramaj", name: "weight", widget: "string"}
+          - {label: "Pret", name: "price", widget: "string"}
+  - label: "Pasare"
+    name: "poultry-dishes"
+    files:
+      - label: "Meniu Pasare"
+        name: "poultry-dishes"
+        file: "data/meniu/poultry.yml"
+        fields:
+          - {label: "Nume", name: "name", widget: "string"}
+          - {label: "Ingrediente", name: "description", widget: "text"}
+          - {label: "Gramaj", name: "weight", widget: "string"}
+          - {label: "Pret", name: "price", widget: "string"}
+  - label: "Salate Aperitiv"
+    name: "salad-dishes"
+    files:
+      - label: "Meniu Salate"
+        name: "salad-dishes"
+        file: "data/meniu/salate.yml"
+        fields:
+          - {label: "Nume", name: "name", widget: "string"}
+          - {label: "Ingrediente", name: "description", widget: "text"}
+          - {label: "Gramaj", name: "weight", widget: "string"}
+          - {label: "Pret", name: "price", widget: "string"}
+  - label: "Supe / Ciorbe"
+    name: "soup-dishes"
+    files:
+      - label: "Meniu Supe / Ciorbe"
+        name: "soup-dishes"
+        file: "data/meniu/soups.yml"
+        fields:
+          - {label: "Nume", name: "name", widget: "string"}
+          - {label: "Ingrediente", name: "description", widget: "text"}
+          - {label: "Gramaj", name: "weight", widget: "string"}
+          - {label: "Pret", name: "price", widget: "string"}
+  - label: "Peste"
+    name: "fish-dishes"
+    files:
+      - label: "Meniu Peste"
+        name: "fish-dishes"
+        file: "data/meniu/fish.yml"
+        fields:
+          - {label: "Nume", name: "name", widget: "string"}
+          - {label: "Ingrediente", name: "description", widget: "text"}
+          - {label: "Gramaj", name: "weight", widget: "string"}
+          - {label: "Pret", name: "price", widget: "string"}
+  - label: "Garnituri"
+    name: "side-dishes"
+    files:
+      - label: "Meniu Garnituri"
+        name: "side-dishes"
+        file: "data/meniu/side.yml"
+        fields:
+          - {label: "Nume", name: "name", widget: "string"}
+          - {label: "Ingrediente", name: "description", widget: "text"}
+          - {label: "Gramaj", name: "weight", widget: "string"}
+          - {label: "Pret", name: "price", widget: "string"}
+  - label: "Bauturi"
+    name: "drinks"
+    files:
+      - label: "Meniu Bauturi"
+        name: "drinks"
+        file: "data/meniu/drinks.yml"
+        fields:
+          - label: "Categorii Bauturi"
+            name: "drink_categories"
+            widget: "list"
+            fields:
+              - label: "Nume Categorie"
+                name: "name"
+                widget: "string"
+              - label: "Meniu Categorie Bauturi"
+                name: "items"
+                widget: "list"
+                fields:
+                  - label: "Nume Bautura"
+                    name: "name"
+                    widget: "string"
+                  - label: "Pret Bautura"
+                    name: "price"
+                    widget: "string"
   - name: "meniul-zilei"
     label: "Meniul Zilei"
     files:
@@ -17,5 +151,5 @@ collections:
           - label: "Feluri de mancare"
             name: "feluri-de-mancare"
             widget: "list"
-            field: {label: Fel de mancare, name: fel-de-mancare, widget: string}
+            field: {label: "Fel de mancare", name: "fel-de-mancare", widget: string}
     delete: false

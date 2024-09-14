@@ -3,98 +3,21 @@
 		<h3 class="text-center mb-5">Salate Aperitiv</h3>
 	</div>
 
+	{{ range .Site.Data.meniu.salate }}
 	<div class="menus d-flex align-items-center">
 		<div class="text-wrap">
 			<div class="row align-items-start">
 				<div class="col-8">
-					<h4>SALATA CU SOMON FUME (250GR.)</h4>
+					<h4>{{ .name }} ({{ .weight }}){{ if .servings }} - {{ .servings }}{{ end }}</h4>
 				</div>
-
 				<div class="col-4">
-					<h4 class="text-muted menu-price">35 LEI</h4>
+					<h4 class="text-muted menu-price">{{ .price }} LEI</h4>
 				</div>
 			</div>
-
-			<p>mix de salata, somon fume, icre de somon, capere, rosii cherry, ceapa rosie, pita aromata</p>
+			{{ if .description }}
+			<p>{{ .description }}</p>
+			{{ end }}
 		</div>
 	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>SALATA CU PIEPT DE CURCAN (250GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">35 LEI</h4>
-				</div>
-			</div>
-
-			<p>mix de salata, morcov, telina, ardei california, mustar frantuzesc, piept de curcan, pita aromata</p>
-		</div>
-	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>SALATA CAESAR (250GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">35 LEI</h4>
-				</div>
-			</div>
-
-			<p>mix de salata, piept de pui la gratar, dressing de maioneza cu anchoa si parmezan, pita aromata</p>
-		</div>
-	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>SALATA GRECEASCA (250GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">35 LEI</h4>
-				</div>
-			</div>
-
-			<p>mix de salata, castraveti, rosii, ardei california, branza feta, masline, pita aromata</p>
-		</div>
-	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>SALATA TON PROASPAT ROSU (250GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">45 LEI</h4>
-				</div>
-			</div>
-
-			<p>mix de salata, rosii cherry, avocado, capere, ceapa rosie, ou prepelita, ton rosu</p>
-		</div>
-	</div>
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>MOZZARELLA CAPRESE (300GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">40 LEI</h4>
-				</div>
-			</div>
-
-			<p>rosii, mozzarella, sos aromat, valeriana</p>
-		</div>
-	</div>
+	{{ end }}
 </div>

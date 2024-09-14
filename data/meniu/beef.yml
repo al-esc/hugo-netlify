@@ -1,0 +1,52 @@
+  - name: "VITA CU URECHI DE LEMN"
+    weight: "400g"
+    price: "80"
+    description: "muschi de vita, urechi de lemn, morcovi, soia"
+
+  - name: "SURF & TURF"
+    weight: "500g"
+    price: "115"
+    description: "muschi de vita, creveti, sparanghel, scoici Saint Jacques, unt"
+
+  - name: "MUSCHI DE VITA CU SPARANGHEL SI SOS TARTUFO"
+    weight: "350g"
+    price: "95"
+    description: "muschi de vita, sparanghel, unt, ulei de trufe, piure de trufe"
+
+  - name: "ANTRICOT DE VITEL MATURAT"
+    weight: "650g"
+    price: "160"
+    description: "antricot de vitel, mix de salata, salsa de ardei iute, aceto balsamico, cartofi prajiti"
+
+  - name: "FETINA DI FILETTO"
+    weight: "400g"
+    price: "80"
+    description: "muschi de vita, sparanghel, mix salata, sos cimiciuri"
+
+  - name: "MUSCHI DE VITA LA GRATAR"
+    weight: "200g"
+    price: "70"
+
+  - name: "SNITEL VIENEZ"
+    weight: "250g"
+    price: "70"
+
+  - name: "TIGAIE DE VITA PICANTA CU LEGUME SI PIURE LA SENNA"
+    weight: "450g"
+    price: "70"
+    description: "muschi de vita, ardei california, ciuperci, ardei iute, usturoi, cartofi piure"
+
+  - name: "HAMBURGER DE VITA LA SENNA"
+    weight: "500g"
+    price: "39"
+    description: "vrabioara de vita, valeriana, ardei gras, branza cedar, inele de ceapa, crunch de bacon, dulceata de ceapa, cartofi prajiti"
+
+  - name: "HAMBURGER DE VITA FRESH"
+    weight: "500g"
+    price: "39"
+    description: "vrabioara de vita, legume fresh, branza cedar, valeriana, cartofi prajiti"
+
+  - name: "MUSCHI DE VITA CHATOBLIAN CU USTUROI SI ROSII COAPTE"
+    weight: "500g"
+    price: "150"
+    description: "vita Chatoblian, cafe de Paris, rosii deshidratate, usturoi copt"

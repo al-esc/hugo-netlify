@@ -1,0 +1,102 @@
+  - name: "SALATA DE VARZA PROASPATA"
+    weight: "150g"
+    price: "7"
+
+  - name: "SALATA DE CASTRAVETI PROASPETI"
+    weight: "150g"
+    price: "7"
+
+  - name: "SALATA ASORTATA DE VARA"
+    weight: "200g"
+    price: "15"
+
+  - name: "SALATA VERDE CU LAMAIE"
+    weight: "150g"
+    price: "10"
+
+  - name: "SALATA DE ROSII CU TELEMEA"
+    weight: "200g"
+    price: "10"
+
+  - name: "SALATA DE SFECLA CU HREAN"
+    weight: "150g"
+    price: "10"
+
+  - name: "SALATA DE ARDEI COPTI"
+    weight: "150g"
+    price: "12"
+
+  - name: "SALATA DE MURATURI"
+    weight: "150g"
+    price: "10"
+
+  - name: "SALATA DE VARZA MURATA"
+    weight: "150g"
+    price: "10"
+    description: "disponibila in sezon"
+
+  - name: "LEGUME LA GRATAR"
+    weight: "300g"
+    price: "22"
+    description: "vinete, dovlecei, ardei california, rosii cherry, ciuperci"
+
+  - name: "CARTOFI BUNICA"
+    weight: "300g"
+    price: "28"
+    description: "cartofi, oua, telemea de vaca"
+
+  - name: "CARTOFI LA SENNA"
+    weight: "200g"
+    price: "15"
+    description: "cartofi, boia, usturoi, marar"
+
+  - name: "CARTOFI PRAJITI"
+    weight: "200g"
+    price: "12"
+
+  - name: "PIURE DE CARTOFI"
+    weight: "200g"
+    price: "15"
+
+  - name: "PIURE LA SENNA"
+    weight: "200g"
+    price: "22"
+    description: "crunch de bacon, parmesan, patrunjel"
+
+  - name: "PIURE DE CARTOFI CU TRUFE"
+    weight: "200g"
+    price: "22"
+
+  - name: "CIUPERCI LA GRATAR"
+    weight: "200g"
+    price: "15"
+
+  - name: "SPARANGHEL LA GRATAR"
+    weight: "150g"
+    price: "25"
+
+  - name: "OREZ SALBATIC TRAS IN UNT"
+    weight: "200g"
+    price: "18"
+
+  - name: "SPANAC"
+    weight: "300g"
+    price: "20"
+
+  - name: "CHIPSURI DE CARTOFI LA SENNA"
+    weight: "200g"
+    price: "18"
+
+  - name: "CHIPSURI DE CARTOFI"
+    weight: "200g"
+    price: "15"
+
+  - name: "MAMALIGA"
+    weight: "250g"
+    price: "5"
+
+  - name: "CHIFLA"
+    price: "3 / bucata"
+
+  - name: "PITA CU OREGANO SI ULEI AROMAT"
+    price: "7 / bucata"

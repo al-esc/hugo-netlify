@@ -3,59 +3,21 @@
 		<h3 class="text-center mb-5">Desert</h3>
 	</div>
 
+	{{ range .Site.Data.meniu.desert }}
 	<div class="menus d-flex align-items-center">
 		<div class="text-wrap">
 			<div class="row align-items-start">
 				<div class="col-8">
-					<h4>CHEESECAKE (200GR.)</h4>
+					<h4>{{ .name }} ({{ .weight }}){{ if .servings }} - {{ .servings }}{{ end }}</h4>
 				</div>
-
 				<div class="col-4">
-					<h4 class="text-muted menu-price">20 LEI</h4>
+					<h4 class="text-muted menu-price">{{ .price }} LEI</h4>
 				</div>
 			</div>
+			{{ if .description }}
+			<p>{{ .description }}</p>
+			{{ end }}
 		</div>
 	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>PAPANASI CU SMANTANA SI DULCEATA (400GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">20 LEI</h4>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>TORTUL CASEI (150GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">25 LEI</h4>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>SUFLE DE CIOCOLATA CU INGHETATA (250GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">20 LEI</h4>
-				</div>
-			</div>
-		</div>
-	</div>
+	{{ end }}
 </div>

@@ -1,0 +1,58 @@
+  - name: "RISOTTO CU CALAMARI SI NERO DI SEPIA"
+    weight: "300g"
+    price: "45"
+
+  - name: "RISOTTO CU CREVETI SI LANGUSTINE"
+    weight: "300g"
+    price: "45"
+    description: "risotto, langustine, usturoi, cubulete de ardei rosu, unt, vin alb"
+
+  - name: "FETTUCCINE CU CREVETI SI LANGUSTINE"
+    weight: "400g"
+    price: "49"
+    description: "fettuccine, creveti, langustine, rosii cherry, usturoi, ardei iute"
+
+  - name: "TAGLIOLINI CU FRUCTE DE MARE"
+    weight: "300g"
+    price: "40"
+    description: "tagliolini, midii, calamari, creveti, apio, usturoi, rosii cherry, sos de rosii"
+
+  - name: "RAVIOLI, GAMBERI & ZUCCHINI"
+    weight: "300g"
+    price: "40"
+    description: "ravioli cu ricota, creveti, dovlecei, usturoi, pepperoncino, unt, patrunjel, rosii cherry, apio, vin alb"
+
+  - name: "FETUCINI CU SOMON"
+    weight: "300g"
+    price: "40"
+    description: "fetucini, somon, fenicul, usturoi, capere, marar, zeama de lamaie, icre de somon"
+
+  - name: "FETTUCCINE CU PUI SI GORGONZOLA"
+    weight: "300g"
+    price: "36"
+    description: "fettuccine, piept de pui, ciuperci, pecorino, unt, gorgonzola"
+
+  - name: "TAGLIOLINI CARBONARA"
+    weight: "300g"
+    price: "36"
+    description: "tagliolini, goanceale, lardo, ou, cucina, pecorino, parmezan, piper fresh"
+
+  - name: "PENNE BASILICO SI MOZZARELLA BUFALA"
+    weight: "300g"
+    price: "36"
+    description: "penne, sos de rosii, busuioc, mozzarella bufala, parmesan"
+
+  - name: "PENNE ARRABIATA"
+    weight: "300g"
+    price: "36"
+    description: "penne, usturoi, ardei iute, busuioc, sos de rosii, parmezan"
+
+  - name: "PENNE POMODORO FRESCO"
+    weight: "300g"
+    price: "30"
+    description: "penne, usturoi, busuioc, sos de rosii, rosii cherry"
+
+  - name: "FETTUCCINE QUATRO FORMAGI"
+    weight: "300g"
+    price: "36"
+    description: "fettuccine, gorgonzola, brie, parmezan, cucina, unt, mozzarrela"

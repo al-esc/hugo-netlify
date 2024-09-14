@@ -2,164 +2,21 @@
     <div class="heading-menu">
         <h3 class="text-center mb-5">Porc</h3>
     </div>
+    {{ range .Site.Data.meniu.pork }}
     <div class="menus d-flex align-items-center">
         <div class="text-wrap">
             <div class="row align-items-start">
                 <div class="col-8">
-                    <h4>STINCO DE PORC CU PIURE SENNA SI PASTA DE HREAN (750GR.)</h4>
+                    <h4>{{ .name }} ({{ .weight }}){{ if .servings }} - {{ .servings }}{{ end }}</h4>
                 </div>
                 <div class="col-4">
-                    <h4 class="text-muted menu-price">65 LEI</h4>
+                    <h4 class="text-muted menu-price">{{ .price }} LEI</h4>
                 </div>
             </div>
+            {{ if .description }}
+            <p>{{ .description }}</p>
+            {{ end }}
         </div>
     </div>
-    <div class="menus d-flex align-items-center">
-        <div class="text-wrap">
-            <div class="row align-items-start">
-                <div class="col-8">
-                    <h4>COTLET DE PORC LA SENNA (400GR.)</h4>
-                </div>
-                <div class="col-4">
-                    <h4 class="text-muted menu-price">45 LEI</h4>
-                </div>
-            </div>
-            <p>cotlet de porc, panko, sos de rosii, salsa de rosii, mozzarella, parmezan, usturoi, busuioc</p>
-        </div>
-    </div>
-    <div class="menus d-flex align-items-center">
-        <div class="text-wrap">
-            <div class="row align-items-start">
-                <div class="col-8">
-                    <h4>COASTA MARINATA DE PORC CU CARTOFI PRAJITI (650GR.)</h4>
-                </div>
-                <div class="col-4">
-                    <h4 class="text-muted menu-price">55 LEI</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="menus d-flex align-items-center">
-        <div class="text-wrap">
-            <div class="row align-items-start">
-                <div class="col-8">
-                    <h4>MUSCHIULET DE PORC IN SOS DE MARAR (300GR.)</h4>
-                </div>
-                <div class="col-4">
-                    <h4 class="text-muted menu-price">32 LEI</h4>
-                </div>
-                <p>muschiulet de porc, sos de smantana, marar, usturoi</p>
-            </div>
-        </div>
-    </div>
-    <div class="menus d-flex align-items-center">
-        <div class="text-wrap">
-            <div class="row align-items-start">
-                <div class="col-8">
-                    <h4>MUSCHIULET DE PORC LA GRATAR (200GR.)</h4>
-                </div>
-                <div class="col-4">
-                    <h4 class="text-muted menu-price">30 LEI</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="menus d-flex align-items-center">
-        <div class="text-wrap">
-            <div class="row align-items-start">
-                <div class="col-8">
-                    <h4>FILE DE PORC LA GRATAR (200GR.)</h4>
-                </div>
-                <div class="col-4">
-                    <h4 class="text-muted menu-price">22 LEI</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="menus d-flex align-items-center">
-        <div class="text-wrap">
-            <div class="row align-items-start">
-                <div class="col-8">
-                    <h4>CEAFA DE PORC LA GRATAR (200GR.)</h4>
-                </div>
-                <div class="col-4">
-                    <h4 class="text-muted menu-price">22 LEI</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="menus d-flex align-items-center">
-        <div class="text-wrap">
-            <div class="row align-items-start">
-                <div class="col-8">
-                    <h4>SNITEL PANE DIN FILE DE PORC (200GR.)</h4>
-                </div>
-                <div class="col-4">
-                    <h4 class="text-muted menu-price">28 LEI</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="menus d-flex align-items-center">
-        <div class="text-wrap">
-            <div class="row align-items-start">
-                <div class="col-8">
-                    <h4>SNITEL CROCANT (300GR.)</h4>
-                </div>
-                <div class="col-4">
-                    <h4 class="text-muted menu-price">30 LEI</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="menus d-flex align-items-center">
-        <div class="text-wrap">
-            <div class="row align-items-start">
-                <div class="col-8">
-                    <h4>TIGAIE PICANTA DE PORC CU PIURE LA SENNA (500GR.)</h4>
-                </div>
-                <div class="col-4">
-                    <h4 class="text-muted menu-price">35 LEI</h4>
-                </div>
-            </div>
-            <p>file de porc, ardei california, ardei iute, usturoi, sos de rosii, piure de cartofi</p>
-        </div>
-    </div>
-    <div class="menus d-flex align-items-center">
-        <div class="text-wrap">
-            <div class="row align-items-start">
-                <div class="col-8">
-                    <h4>MITITEI (80GR.)</h4>
-                </div>
-                <div class="col-4">
-                    <h4 class="text-muted menu-price">6,5 LEI</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="menus d-flex align-items-center">
-        <div class="text-wrap">
-            <div class="row align-items-start">
-                <div class="col-8">
-                    <h4>CARNATI LA BARDA (200GR.)</h4>
-                </div>
-                <div class="col-4">
-                    <h4 class="text-muted menu-price">20 LEI</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>WRAP CU PORC DULCE/PICANT CU CHIPSURI LA SENNA (600GR.)</h4>
-				</div>
-				<div class="col-4">
-					<h4 class="text-muted menu-price">43 LEI</h4>
-				</div>
-			</div>
-			<p>tortilla, pulled pork, castraveti murati, mix de salata, ardei California, ceapa rosie, sos cedar, sos barbeque si chipsuri de cartofi cu patrunjel, sare, piper, boia, sos aromat</p>
-		</div>
-	</div>
+    {{ end }}
 </div>

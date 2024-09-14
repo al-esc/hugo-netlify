@@ -3,59 +3,22 @@
 		<h3 class="text-center mb-5">Oaie</h3>
 	</div>
 
+	{{ range .Site.Data.meniu.sheep }}
 	<div class="menus d-flex align-items-center">
 		<div class="text-wrap">
 			<div class="row align-items-start">
 				<div class="col-8">
-					<h4>MUSCHIULET DE OAIE CU MAMALIGA SI MUJDEI (400GR.)</h4>
+					<h4>{{ .name }} ({{ .weight }}){{ if .servings }} - {{ .servings }}{{ end }}</h4>
 				</div>
-
 				<div class="col-4">
-					<h4 class="text-muted menu-price">50 LEI</h4>
+					<h4 class="text-muted menu-price">{{ .price }} LEI</h4>
 				</div>
 			</div>
+			{{ if .description }}
+			<p>{{ .description }}</p>
+			{{ end }}
 		</div>
 	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>CARNE DE OAIE CU HUMUS SI CONDIMENTE MAROCANE (250GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">40 LEI</h4>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>PASTRAMA DE OAIE CU MAMALIGA (450GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">39 LEI</h4>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>CARNATI DE PLESCOI (200GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">25 LEI</h4>
-				</div>
-			</div>
-		</div>
-	</div>
+	{{ end }}
 
 </div>

@@ -3,147 +3,21 @@
 		<h3 class="text-center mb-5">Peste</h3>
 	</div>
 
+	{{ range .Site.Data.meniu.fish }}
 	<div class="menus d-flex align-items-center">
 		<div class="text-wrap">
 			<div class="row align-items-start">
 				<div class="col-8">
-					<h4>SOMON LA SENNA (350GR.)</h4>
+					<h4>{{ .name }} ({{ .weight }}){{ if .servings }} - {{ .servings }}{{ end }}</h4>
 				</div>
-
 				<div class="col-4">
-					<h5 class="text-muted menu-price">70 LEI</h5>
+					<h4 class="text-muted menu-price">{{ .price }} LEI</h4>
 				</div>
 			</div>
-
-			<p>somon, piure de broccoli, fructul pasiunii</p>
+			{{ if .description }}
+			<p>{{ .description }}</p>
+			{{ end }}
 		</div>
 	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>TON LA GRATAR CU SOS DE LAMAIE (200GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">55 LEI</h4>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>FILE LUP DE MARE CU SALSA MAROCANA (250GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">50 LEI</h4>
-				</div>
-			</div>
-
-			<p>ardei california, rodii, ceapa rosie, lamaie, patrunjel, castravete verde</p>
-		</div>
-	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>SOMON LA GRATAR (200GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">50 LEI</h4>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>SOMON IN CRUSTA DE CAJU CU SPARANGHEL (200GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">59 LEI</h4>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>PLATOU MIX FRUCTE DE MARE (600GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">90 LEI</h4>
-				</div>
-
-				<p>creveti, inele si tentacule de calamari, carne de midii, hamsii, masline pane, dovlecei pane, sos tartar</p>
-			</div>
-		</div>
-	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>DORADA REGALA LA GRATAR (100GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">13 LEI</h4>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>SARAMURA DE CRAP CU MAMALIGA (800GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">55 LEI</h4>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>DORADA BUTTERFLY CU CARPACCIO DE VINETE SI DOVLECEI (400GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">70 LEI</h4>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>CREVETI TEMPURA - PICANTI / NEPICANTI (250GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">50 LEI</h4>
-				</div>
-			</div>
-		</div>
-	</div>
+	{{ end }}
 </div>

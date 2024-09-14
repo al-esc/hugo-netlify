@@ -1,0 +1,55 @@
+  - name: "STINCO DE PORC CU PIURE SENNA SI PASTA DE HREAN"
+    weight: "750g"
+    price: "65"
+
+  - name: "COTLET DE PORC LA SENNA"
+    weight: "400g"
+    price: "45"
+    description: "cotlet de porc, panko, sos de rosii, salsa de rosii, mozzarella, parmezan, usturoi, busuioc"
+
+  - name: "COASTA MARINATA DE PORC CU CARTOFI PRAJITI"
+    weight: "650g"
+    price: "55"
+
+  - name: "MUSCHIULET DE PORC IN SOS DE MARAR"
+    weight: "300g"
+    price: "32"
+    description: "muschiulet de porc, sos de smantana, marar, usturoi"
+
+  - name: "MUSCHIULET DE PORC LA GRATAR"
+    weight: "200g"
+    price: "30"
+
+  - name: "FILE DE PORC LA GRATAR"
+    weight: "200g"
+    price: "22"
+
+  - name: "CEAFA DE PORC LA GRATAR"
+    weight: "200g"
+    price: "22"
+
+  - name: "SNITEL PANE DIN FILE DE PORC"
+    weight: "200g"
+    price: "28"
+
+  - name: "SNITEL CROCANT"
+    weight: "300g"
+    price: "30"
+
+  - name: "TIGAIE PICANTA DE PORC CU PIURE LA SENNA"
+    weight: "500g"
+    price: "35"
+    description: "file de porc, ardei california, ardei iute, usturoi, sos de rosii, piure de cartofi"
+
+  - name: "MITITEI"
+    weight: "80g"
+    price: "6.5"
+
+  - name: "CARNATI LA BARDA"
+    weight: "200g"
+    price: "20"
+
+  - name: "WRAP CU PORC DULCE/PICANT CU CHIPSURI LA SENNA"
+    weight: "600g"
+    price: "43"
+    description: "tortilla, pulled pork, castraveti murati, mix de salata, ardei California, ceapa rosie, sos cedar, sos barbeque si chipsuri de cartofi"

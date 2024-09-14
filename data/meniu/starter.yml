@@ -1,0 +1,79 @@
+  - name: "PLATOU APERITIV"
+    weight: "400g"
+    price: "40"
+    description: "humus, guacamole, tzatziki, salata de ardei tricolor cu seminte de dovleac, salata icre de crap, pita"
+
+  - name: "PLATOU LA SENNA"
+    weight: "3100g"
+    price: "280"
+    description: "coasta de porc marinata, pastrama, puisor, plescoi, carnati porc la barda, pulpe de pui, mici pitusti, ceafa, cartofi bunica, cartofi prajiti, muraturi, mustar, mujdei cu smantana"
+
+  - name: "BURATA CU SALATA DE RUCOLA SI DULCEATA DE ROSII CHERRY"
+    weight: "350g"
+    price: "49"
+    description: "burata, rucolla, rosii cherry, ulei masline, busuioc, miere"
+
+  - name: "MOZZARELLA DI BUFALA CU PROSCIUTTO CRUDO SI MIX DE SALATA"
+    weight: "250g"
+    price: "49"
+    description: "mozzarella bufala, parmezan, prosciutto crudo, mix de salata verde, ulei de masline, rosii cherry"
+
+  - name: "MOZZARELLA FRITA"
+    weight: "300g"
+    price: "49"
+    description: "mozzarella di bufala, pezmet panko, prosciutto crudo, rosii, busuioc, rucola, ulei de masline apio"
+
+  - name: "TARTAR DE TON CU YUZU JUICE"
+    weight: "200g"
+    price: "49"
+    description: "ton rosu, avocado, susan, ulei de masline, chivas, yuzu juice, salata mixta"
+
+  - name: "TARTAR DE SOMON CU FENICUL SI CAVIAR"
+    weight: "250g"
+    price: "49"
+    description: "somon proaspat, caviar de somon, ceapa verde, ulei de masline, susan, lamaie, fenel, patrunjel, chivas"
+
+  - name: "DUO TARTAR DE TON SI SOMON CU ICRE TOBIKO"
+    weight: "250g"
+    price: "49"
+    description: "ton rosu, somon, icre tobiko, avocado, susan, ulei de masline, chivas, yuzu juice, salata mixta"
+
+  - name: "CREVETI IN SOS DE UNT CU USTUROI SI RODIE"
+    weight: "300g"
+    price: "49"
+    description: "creveti, sos rodii, usturoi, patrunjel, ardei iute"
+
+  - name: "MELAZZANA ALLA PARMEGIANA"
+    weight: "300g"
+    price: "35"
+    description: "vinete, sos de rosii, parmezan, mozzarella, busuioc"
+
+  - name: "ZUCCHINI PRAJIT CU SOS TZATZIKI"
+    weight: "250g"
+    price: "27"
+    description: "dovlecei, sos tzatziki"
+
+  - name: "GUACAMOLE"
+    weight: "150g"
+    price: "23"
+    description: "avocado, pulpa de rosii, ceapa rosie, coriandru, lime"
+
+  - name: "HUMUS"
+    weight: "150g"
+    price: "20"
+
+  - name: "ICRE DE CRAP"
+    weight: "100g"
+    price: "20"
+
+  - name: "TZATZIKI"
+    weight: "100g"
+    price: "18"
+
+  - name: "SALATA DE ARDEI TRICOLOR CU SEMINTE DE DOVLEAC"
+    weight: "150g"
+    price: "25"
+
+  - name: "ARDEI KAPIA PANE SI ARDEI IUTE PANE"
+    weight: "150g"
+    price: "15"

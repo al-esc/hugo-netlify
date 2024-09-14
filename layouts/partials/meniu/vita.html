@@ -2,173 +2,21 @@
 	<div class="heading-menu">
 		<h3 class="text-center mb-5">Vita</h3>
 	</div>
+	{{ range .Site.Data.meniu.beef }}
 	<div class="menus d-flex align-items-center">
 		<div class="text-wrap">
 			<div class="row align-items-start">
 				<div class="col-8">
-					<h4>VITA CU URECHI DE LEMN (400GR.)</h4>
+					<h4>{{ .name }} ({{ .weight }}){{ if .servings }} - {{ .servings }}{{ end }}</h4>
 				</div>
-
 				<div class="col-4">
-					<h4 class="text-muted menu-price">80 LEI</h4>
+					<h4 class="text-muted menu-price">{{ .price }} LEI</h4>
 				</div>
 			</div>
-
-			<p>muschi de vita, urechi de lemn, morcovi, soia</p>
+			{{ if .description }}
+			<p>{{ .description }}</p>
+			{{ end }}
 		</div>
 	</div>
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>SURF &amp; TURF (500GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">115 LEI</h4>
-				</div>
-			</div>
-
-			<p>muschi de vita, creveti, sparanghel, scoici Saint Jacques, unt</p>
-		</div>
-	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>MUSCHI DE VITA CU SPARANGHEL SI SOS TARTUFO (350GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">95 LEI</h4>
-				</div>
-			</div>
-
-			<p>muschi de vita, sparanghel, unt, ulei de trufe, piure de trufe</p>
-		</div>
-	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>ANTRICOT DE VITEL MATURAT (650GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">160 LEI</h4>
-				</div>
-			</div>
-
-			<p>antricot de vitel, mix de salata, salsa de ardei iute, aceto balsamico, cartofi prajiti</p>
-		</div>
-	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>FETINA DI FILETTO (400GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">80 LEI</h4>
-				</div>
-			</div>
-
-			<p>muschi de vita, sparanghel, mix salata, sos cimiciuri</p>
-		</div>
-	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>MUSCHI DE VITA LA GRATAR (200GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">70 LEI</h4>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>SNITEL VIENEZ (250GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">70 LEI</h4>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>TIGAIE DE VITA PICANTA CU LEGUME SI PIURE LA SENNA (450GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">70 LEI</h4>
-				</div>
-			</div>
-
-			<p>muschi de vita, ardei california, ciuperci, ardei iute, usturoi, cartofi piure</p>
-		</div>
-	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>HAMBURGER DE VITA LA SENNA (500GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">39 LEI</h4>
-				</div>
-			</div>
-
-			<p>vrabioara de vita, valeriana, ardei gras, branza cedar, inele de ceapa, crunch de bacon, dulceata de ceapa, cartofi prajiti</p>
-		</div>
-	</div>
-
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>HAMBURGER DE VITA FRESH (500GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">39 LEI</h4>
-				</div>
-			</div>
-
-			<p>vrabioara de vita, legume fresh, branza cedar, valeriana, cartofi prajiti</p>
-		</div>
-	</div>
-	<div class="menus d-flex align-items-center">
-		<div class="text-wrap">
-			<div class="row align-items-start">
-				<div class="col-8">
-					<h4>MUSCHI DE VITA CHATOBLIAN CU USTUROI SI ROSII COAPTE (500GR.)</h4>
-				</div>
-
-				<div class="col-4">
-					<h4 class="text-muted menu-price">150 LEI</h4>
-				</div>
-			</div>
-
-			<p>vita Chatoblian, cafe de Paris, rosii deshidratate, usturoi copt</p>
-		</div>
-	</div>
+	{{ end }}
 </div>

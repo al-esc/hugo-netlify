@@ -1,0 +1,177 @@
+  - name: "WHISKEY (40ML.)"
+    items:
+      - {name: "JOHNNIE WALKER RED LABEL 40%", price: "15"}
+      - {name: "JOHNNIE WALKER BLACK LABEL 12 YO 40%", price: "20"}
+      - {name: "SINGLETON OF DUFFTON 12 YO 40%", price: "20"}
+      - {name: "CARDHU 12 YO 40%", price: "24"}
+      - {name: "TALISKER 10 YO 45,8%", price: "29"}
+      - {name: "BUSHMILLS IRISH 40%", price: "15"}
+      - {name: "BULLEIT BOURBON 45%", price: "17"}
+
+  - name: "VODKA (40ML.)"
+    items:
+      - {name: "SMIRNOFF RED 40%", price: "15"}
+      - {name: "KETEL ONE 40%", price: "20"}
+      - {name: "CIROC 40%", price: "30"}
+
+  - name: "GIN (40ML.)"
+    items:
+      - {name: "GORDON'S DRY 37,5%", price: "10"}
+      - {name: "GORDON'S PINK 37,5%", price: "10"}
+      - {name: "TANQUERAY LONDON DRY 43,1%", price: "15"}
+      - {name: "TANQUERAY RANGPUR 43,1%", price: "15"}
+      - {name: "TANQUERAY SEVILLA 41,3%", price: "15"}
+      - {name: "TANQUERAY 0%", price: "11"}
+
+  - name: "RUM (40ML.)"
+    items:
+      - {name: "CAPTAIN MORGAN SPICED GOLD 35%", price: "15"}
+      - {name: "PAMPERO ANIVERSARIO 40%", price: "20"}
+      - {name: "ZACAPA 23 YO 40%", price: "35"}
+
+  - name: "COGNACS (40ML.)"
+    items:
+      - {name: "BRANCOVEANU XO 40%", price: "36"}
+      - {name: "MARTELL VS 40%", price: "20"}
+
+  - name: "TEQUILA (40ML.)"
+    items:
+      - {name: "JOSE CUERVO GOLD 38%", price: "15"}
+
+  - name: "APERITIVES & DIGESTIVES (40ML.)"
+    items:
+      - {name: "APEROL 11%", price: "14"}
+      - {name: "BAILEYS 17%", price: "15"}
+      - {name: "CAMPARI 25%", price: "14"}
+      - {name: "CINZANO ROSSO / BIANCO 15%", price: "10"}
+      - {name: "AMARETTO DISARONNO 28%", price: "15"}
+      - {name: "JAGERMEISTER 35%", price: "15"}
+
+  - name: "DISTILERIILE BRAN (40ML.)"
+    items:
+      - {name: "PALINCA PRUNE 50%", price: "15"}
+      - {name: "PALINCA GUTUI / CAISE 40%", price: "19"}
+      - {name: "RACHIU PRUNE 37,5%", price: "13"}
+      - {name: "AFINATA / CAISATA / VISINATA 30%", price: "13"}
+      - {name: "SAMARO (LICHIOR NUCI VERZI) 35%", price: "15"}
+
+  - name: "APERITIVO MOMENTS"
+    items:
+      - {name: "APEROL SPRITZ (300ML.)", price: "28"}
+      - {name: "CAMPARI SPRITZ (300ML.)", price: "28"}
+      - {name: "CRODINO NON-ALCOHOLIC APERITIVO (175ML.)", price: "25"}
+
+  - name: "GIN & TONICS (300ML.)"
+    items:
+      - {name: "PINK GIN & TONIC", price: "28"}
+      - {name: "GIN GARDEN", price: "28"}
+      - {name: "INDIAN SUMMER", price: "28"}
+      - {name: "SEVILLA ORANGE & TONIC", price: "28"}
+      - {name: "ROYALE TONIC", price: "28"}
+      - {name: "GIN & DRIVE", price: "28"}
+
+  - name: "LONG DRINKS & COCKTAILS (300ML.)"
+    items:
+      - {name: "NEGRONI", price: "28"}
+      - {name: "COSMOPOLITAN", price: "28"}
+      - {name: "HUGO", price: "28"}
+      - {name: "AMARETTO SOUR", price: "28"}
+      - {name: "CUBA LIBRE", price: "28"}
+      - {name: "CAMPARI TONIC", price: "28"}
+      - {name: "CAMPARI ORANGE", price: "28"}
+      - {name: "HIGHBALL", price: "28"}
+      - {name: "WHISKY - APPLE / COLA / ENERGY", price: "28"}
+      - {name: "VODKA - ORANGE / CRANBERRY / APPLE / TONIC / COLA / ENERGY", price: "28"}
+      - {name: "FIZZOJITO", price: "28"}
+      - {name: "MOJITO", price: "28"}
+
+  - name: "NON ALCOHOLIC COCKTAILS (300ML.)"
+    items:
+      - {name: "GREEN APPLE", price: "25"}
+      - {name: "SEX ON THE BEACH", price: "25"}
+      - {name: "ARIZONA SUNSET", price: "25"}
+      - {name: "PASSION FRUIT", price: "25"}
+
+  - name: "VIN LA PAHAR (140ML.)"
+    items:
+      - {name: "CAII DE LA LETEA VOL 1", price: "15"}
+
+  - name: "VINURI ALBE"
+    items:
+      - {name: "CAII DE LA LETEA PRINCEPS", price: "110"}
+      - {name: "CAII DE LA LETEA VOLUMUL I", price: "70"}
+      - {name: "SOLO QUINTA", price: "200"}
+      - {name: "PURCARI", price: "100"}
+      - {name: "BUDUREASCA", price: "80"}
+      - {name: "NEGRINI", price: "90 / 120"}
+      - {name: "COTNARI", price: "65 / 80"}
+
+  - name: "VINURI ROZE"
+    items:
+      - {name: "CAII DE LA LETEA PRINCEPS", price: "110"}
+      - {name: "CAII DE LA LETEA VOLUMUL I", price: "70"}
+      - {name: "BUDUREASCA", price: "80"}
+      - {name: "NEGRINI", price: "90"}
+      - {name: "NOCTURNE", price: "100"}
+      - {name: "COTNARI", price: "80"}
+
+  - name: "VINURI ROSII"
+    items:
+      - {name: "CRAMA DEMATEI", price: "200"}
+      - {name: "CAII DE LA LETEA PRINCEPS", price: "110"}
+      - {name: "CAII DE LA LETEA VOLUMUL I", price: "70"}
+      - {name: "NEGRINI", price: "90"}
+      - {name: "PURCARI", price: "100"}
+      - {name: "BUDUREASCA", price: "90"}
+      - {name: "COTNARI", price: "80"}
+
+  - name: "CIDRU (330ML.)"
+    items:
+      - {name: "STRONGBOW 4,5%", price: "12"}
+
+  - name: "BERE DRAUGHT"
+    items:
+      - {name: "HEINEKEN 5% (250ML.)", price: "14"}
+      - {name: "HEINEKEN 5% (400ML.)", price: "16"}
+
+  - name: "BERE IMBUTELIATA"
+    items:
+      - {name: "HEINEKEN SILVER 4% (400ML.)", price: "12"}
+      - {name: "HEINEKEN (400ML.) 5%", price: "12"}
+      - {name: "CIUC PREMIUM (500ML.) 5%", price: "10"}
+      - {name: "SILVA STRONG DARK (500ML.) 7%", price: "12"}
+      - {name: "BIRRA MORETTI (500ML.) 4,6%", price: "11"}
+      - {name: "DESPERADOS (400ML.) 5,9%", price: "12"}
+      - {name: "EDELWEISS HEFFE NEFILTRATA (500ML.) 5,3%", price: "23"}
+      - {name: "HARGHITA (500ML.) 4,5%", price: "12"}
+
+  - name: "BERE FARA ALCOOL"
+    items:
+      - {name: "HEINEKEN (330ML.) 0%", price: "11"}
+      - {name: "BIRRA (330ML.) 0%", price: "10"}
+      - {name: "CIUC RADLER (500ML.) 0%", price: "10"}
+      - {name: "CIUC ZMEURA SI LAMAIE (500ML.) 0%", price: "10"}
+
+  - name: "SOFT DRINKS"
+    items:
+      - {name: "FRESH PORTOCALE / GRAPEFRUIT (350ML.)", price: "25"}
+      - {name: "LIMONADA CU MENTA SI MIERE (400ML.)", price: "23"}
+      - {name: "LIMONADA CU GHIMBIR / PORTOCALE / GREPFRUT (400ML.)", price: "25"}
+      - {name: "APA MINERALA / PLATA (330ML.)", price: "9"}
+      - {name: "APA MINERALA / PLATA (750ML.)", price: "15"}
+      - {name: "PEPSI COLA, MAX, TWIST, VINTAGE (250ML.)", price: "12"}
+      - {name: "LIPTON ICE TEA (250ML.)", price: "12"}
+      - {name: "PRIGAT NECTAR (250ML.)", price: "12"}
+      - {name: "ENERGIZANT ROCKSTAR (250ML.)", price: "10"}
+
+  - name: "HOT DRINKS"
+    items:
+      - {name: "ESPRESSSO (30ML. / 60ML.)", price: "12"}
+      - {name: "ESPRESSSO DECAFF (30ML. / 60ML.)", price: "12"}
+      - {name: "CAPPUCCINO / CAPPUCCINO DECAFF (120ML.)", price: "18"}
+      - {name: "CAFFE LATTE (240ML.)", price: "20"}
+      - {name: "FREDO (240ML.)", price: "20"}
+      - {name: "CAFFE FRAPPE (240ML.)", price: "25"}
+      - {name: "CIOCOLATA CALDA (120ML.)", price: "20"}
+      - {name: "CEAI (300ML.)", price: "20"}
+      - {name: "BAILEYS IRISH COFFEE (120ML.)", price: "20"}
