@@ -6,6 +6,18 @@ locale: "ro"
 logo_url: "/img/logo.png"
 
 collections:
+  - name: "meniul-zilei"
+    label: "Meniul Zilei"
+    files:
+      - label: "Meniul De Azi"
+        name: "meniul-de-azi"
+        file: "data/meniu/zilnic.yml"
+        fields:
+          - {label: "Pret", name: "pret", widget: "number", default: "22"}
+          - label: "Feluri de mancare"
+            name: "feluri-de-mancare"
+            widget: "list"
+            field: {label: "Fel de mancare", name: "fel-de-mancare", widget: string}
   - name: "meniu"
     label: "Meniu La Senna"
     files:
