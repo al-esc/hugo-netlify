@@ -21,6 +21,42 @@ collections:
   - name: "meniu"
     label: "Meniu La Senna"
     files:
+      - name: "pork-dishes"
+        label: "Porc"
+        file: "data/meniu/desert.yml"
+        fields:
+          - label: "Meniu Porc"
+            name: "pork"
+            widget: "list"
+            fields:
+              - {label: "Nume", name: "name", widget: "string"}
+              - {label: "Gramaj", name: "weight", widget: "string"}
+              - {label: "Pret", name: "price", widget: "string"}
+              - {label: "Ingrediente", name: "description", widget: "text", required: false}
+      - name: "desert-dishes"
+        label: "Desert"
+        file: "data/meniu/desert.yml"
+        fields:
+          - label: "Meniu Desert"
+            name: "desert"
+            widget: "list"
+            fields:
+              - {label: "Nume", name: "name", widget: "string"}
+              - {label: "Gramaj", name: "weight", widget: "string"}
+              - {label: "Pret", name: "price", widget: "string"}
+              - {label: "Ingrediente", name: "description", widget: "text", required: false}
+      - name: "beef-dishes"
+        label: "Vita"
+        file: "data/meniu/beef.yml"
+        fields:
+          - label: "Meniu Vita"
+            name: "beef"
+            widget: "list"
+            fields:
+              - {label: "Nume", name: "name", widget: "string"}
+              - {label: "Gramaj", name: "weight", widget: "string"}
+              - {label: "Pret", name: "price", widget: "string"}
+              - {label: "Ingrediente", name: "description", widget: "text", required: false}
       - name: "pasta-dishes"
         label: "Paste"
         file: "data/meniu/pasta.yml"
