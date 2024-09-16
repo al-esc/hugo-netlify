@@ -1,43 +1,35 @@
 fish:
-  - name: "SOMON LA SENNA"
-    weight: "350g"
+  - name: SOMON LA SENNA
+    weight: 350g
     price: "70"
-    description: "somon, piure de broccoli, fructul pasiunii"
-
-  - name: "TON LA GRATAR CU SOS DE LAMAIE"
-    weight: "200g"
+    description: somon, piure de broccoli, fructul pasiunii
+  - name: TON LA GRATAR CU SOS DE LAMAIE
+    weight: 200g
     price: "55"
-
-  - name: "FILE LUP DE MARE CU SALSA MAROCANA"
-    weight: "250g"
+  - name: FILE LUP DE MARE CU SALSA MAROCANA
+    weight: 250g
     price: "50"
-    description: "ardei california, rodii, ceapa rosie, lamaie, patrunjel, castravete verde"
-
-  - name: "SOMON LA GRATAR"
-    weight: "200g"
+    description: ardei california, rodii, ceapa rosie, lamaie, patrunjel, castravete verde
+  - name: SOMON LA GRATAR
+    weight: 200g
     price: "50"
-
-  - name: "SOMON IN CRUSTA DE CAJU CU SPARANGHEL"
-    weight: "200g"
-    price: "59"
-
-  - name: "PLATOU MIX FRUCTE DE MARE"
-    weight: "600g"
+  - name: SOMON IN CRUSTA DE CAJU CU SPARANGHEL
+    weight: 200g
+    price: "65"
+  - name: PLATOU MIX FRUCTE DE MARE
+    weight: 600g
     price: "90"
-    description: "creveti, inele si tentacule de calamari, carne de midii, hamsii, masline pane, dovlecei pane, sos tartar"
-
-  - name: "DORADA REGALA LA GRATAR"
-    weight: "100g"
+    description: creveti, inele si tentacule de calamari, carne de midii, hamsii,
+      masline pane, dovlecei pane, sos tartar
+  - name: DORADA REGALA LA GRATAR
+    weight: 100g
     price: "13"
-
-  - name: "SARAMURA DE CRAP CU MAMALIGA"
-    weight: "800g"
+  - name: SARAMURA DE CRAP CU MAMALIGA
+    weight: 800g
     price: "55"
-
-  - name: "DORADA BUTTERFLY CU CARPACCIO DE VINETE SI DOVLECEI"
-    weight: "400g"
+  - name: DORADA BUTTERFLY CU CARPACCIO DE VINETE SI DOVLECEI
+    weight: 400g
     price: "70"
-
-  - name: "CREVETI TEMPURA - PICANTI / NEPICANTI"
-    weight: "250g"
+  - name: CREVETI TEMPURA - PICANTI / NEPICANTI
+    weight: 250g
     price: "50"
