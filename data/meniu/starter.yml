@@ -60,9 +60,3 @@ starter:
   - name: TZATZIKI
     weight: 100g
     price: "23"
-  - name: SALATA DE ARDEI TRICOLOR CU SEMINTE DE DOVLEAC
-    weight: 150g
-    price: "25"
-  - name: ARDEI KAPIA PANE SI ARDEI IUTE PANE
-    weight: 150g
-    price: "15"
