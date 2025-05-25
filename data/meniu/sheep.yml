@@ -1,16 +1,15 @@
 sheep:
-  - name: "MUSCHIULET DE OAIE CU MAMALIGA SI MUJDEI"
-    weight: "400g"
+  - name: MUSCHIULET DE OAIE CU MAMALIGA SI MUJDEI
+    weight: 400g
     price: "59"
-
-  - name: "CARNE DE OAIE CU HUMUS SI CONDIMENTE MAROCANE"
-    weight: "250g"
-    price: "40"
-
-  - name: "PASTRAMA DE OAIE CU MAMALIGA"
-    weight: "450g"
-    price: "49"
-
-  - name: "CARNATI DE PLESCOI"
-    weight: "200g"
-    price: "29"
+  - name: COTLETE DE MIEL CU RISOTTO
+    weight: 450g
+    price: "110"
+    description: cotlet miel, rizotto, unt, turmeric, sare, piper, parmezan, panko,
+      usturoi, rozmarin, cimbrisor
+  - name: PASTRAMA DE OAIE CU MAMALIGA
+    weight: 450g
+    price: "55"
+  - name: CARNATI DE PLESCOI
+    weight: 200g
+    price: "32"
