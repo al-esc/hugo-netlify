@@ -1,26 +1,25 @@
 vegan:
-  - name: "WRAP VEGETARIAN CU CHIPSURI DE CASA"
-    weight: "600g"
-    price: "43"
-    description: "tortilla, halloumi, rosii, mix de salata, guacamole, pomodori secchi si chipsuri de cartofi cu usturoi, oregano, sare, piper, parmesan"
-
-  - name: "HALLOUMI LA GRATAR"
-    weight: "250g"
-    price: "40"
-    description: "halloumi, rosii cherry, mix salata"
-
-  - name: "CASCAVAL PANE"
-    weight: "200g"
+  - name: WRAP VEGETARIAN CU CARTOFI LA SENNA
+    weight: 600g
+    price: "49"
+    description: tortilla, halloumi, rosii, mix de salata, guacamole, pomodori
+      secchi si = cartofi prajiti cu usturoi, boia si marar
+  - name: HALLOUMI LA GRATAR
+    weight: 250g
+    price: "49"
+    description: halloumi, rosii cherry, mix salata
+  - name: CASCAVAL PANE
+    weight: 200g
+    price: "39"
+  - name: MAMALIGA CU BRANZA SI SMANTANA
+    weight: 450g
+    price: "32"
+  - name: MASLINE SI MOZZARELA PANE
+    weight: 250g
+    price: "39"
+  - name: MASLINE PANE
+    weight: 100g
+    price: "19"
+  - name: MOZZARELLA STICKS
+    weight: 150g
     price: "30"
-
-  - name: "MAMALIGA CU BRANZA SI SMANTANA"
-    weight: "450g"
-    price: "28"
-
-  - name: "MIX DE MASLINE SI MOZZARELA PANE"
-    weight: "400g"
-    price: "30"
-
-  - name: "MASLINE PANE"
-    weight: "100g"
-    price: "15"
