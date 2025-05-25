@@ -1,59 +1,43 @@
 pasta:
-  - name: "RISOTTO CU CALAMARI SI NERO DI SEPIA"
-    weight: "300g"
-    price: "49"
-
-  - name: "RISOTTO CU CREVETI SI LANGUSTINE"
-    weight: "300g"
-    price: "49"
-    description: "risotto, langustine, usturoi, cubulete de ardei rosu, unt, vin alb"
-
-  - name: "FETTUCCINE CU CREVETI SI LANGUSTINE"
-    weight: "400g"
-    price: "55"
-    description: "fettuccine, creveti, langustine, rosii cherry, usturoi, ardei iute"
-
-  - name: "TAGLIOLINI CU FRUCTE DE MARE"
-    weight: "300g"
-    price: "45"
-    description: "tagliolini, midii, calamari, creveti, apio, usturoi, rosii cherry, sos de rosii"
-
-  - name: "RAVIOLI, GAMBERI & ZUCCHINI"
-    weight: "300g"
-    price: "45"
-    description: "ravioli cu ricota, creveti, dovlecei, usturoi, pepperoncino, unt, patrunjel, rosii cherry, apio, vin alb"
-
-  - name: "FETTUCCINE CU SOMON"
-    weight: "300g"
+  - name: RISOTTO PRIMAVERA
+    weight: 250g
     price: "40"
-    description: "fettuccine, somon, fenicul, usturoi, capere, marar, zeama de lamaie, icre de somon"
-
-  - name: "FETTUCCINE CU PUI SI GORGONZOLA"
-    weight: "300g"
-    price: "39"
-    description: "fettuccine, piept de pui, ciuperci, pecorino, unt, gorgonzola"
-
-  - name: "TAGLIOLINI CARBONARA"
-    weight: "300g"
-    price: "39"
-    description: "tagliolini, goanceale, lardo, ou, cucina, pecorino, parmezan, piper fresh"
-
-  - name: "PENNE BASILICO SI MOZZARELLA BUFALA"
-    weight: "300g"
-    price: "39"
-    description: "penne, sos de rosii, busuioc, mozzarella bufala, parmesan"
-
-  - name: "PENNE ARRABIATA"
-    weight: "300g"
+    description: risotto, legume, parmesan, unt, usturoi
+  - name: "RISOTTO CU CREVETI "
+    weight: 300g
+    price: "59"
+    description: risotto, creveti, usturoi, cubulete de ardei rosu, unt, vin alb
+  - name: FETTUCCINE/TAGLIOLINI CU FRUCTE DE MARE
+    weight: 300g
+    price: "49"
+    description: tagliolini, midii, calamari, creveti, apio, usturoi, rosii cherry,
+      sos de rosii
+  - name: FETTUCCINE CU SOMON FUME
+    weight: 300g
+    price: "49"
+    description: fettuccine, somon fume, fenicul, usturoi, capere, marar, zeama de
+      lamaie, icre de somon
+  - name: FETTUCCINE CU PUI SI GORGONZOLA
+    weight: 300g
+    price: "44"
+    description: fettuccine, piept de pui, ciuperci, pecorino, unt, gorgonzola
+  - name: TAGLIOLINI CARBONARA
+    weight: 300g
+    price: "44"
+    description: tagliolini, goanceale, lardo, ou, cucina, pecorino, parmezan, piper fresh
+  - name: PENNE BASILICO SI MOZZARELLA DI BUFALA
+    weight: 300g
+    price: "44"
+    description: penne, sos de rosii, busuioc, mozzarella di bufala, parmezan
+  - name: PENNE ARRABIATA
+    weight: 300g
     price: "36"
-    description: "penne, usturoi, ardei iute, busuioc, sos de rosii, parmezan"
-
-  - name: "PENNE POMODORO FRESCO"
-    weight: "300g"
-    price: "33"
-    description: "penne, usturoi, busuioc, sos de rosii, rosii cherry"
-
-  - name: "FETTUCCINE QUATRO FORMAGI"
-    weight: "300g"
-    price: "39"
-    description: "fettuccine, gorgonzola, brie, parmezan, cucina, unt, mozzarella"
+    description: penne, usturoi, ardei iute, busuioc, sos de rosii, parmezan
+  - name: PENNE POMODORO FRESCO
+    weight: 300g
+    price: "36"
+    description: penne, usturoi, busuioc, sos de rosii, rosii cherry
+  - name: FETTUCCINE QUATRO FORMAGI
+    weight: 300g
+    price: "44"
+    description: fettuccine, gorgonzola, brie, parmezan, cucina, unt, mozzarella
