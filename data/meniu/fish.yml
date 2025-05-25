@@ -1,35 +1,27 @@
 fish:
-  - name: SOMON LA SENNA
-    weight: 350g
-    price: "70"
-    description: somon, piure de broccoli, fructul pasiunii
-  - name: TON LA GRATAR CU SOS DE LAMAIE
-    weight: 200g
+  - name: SOMON LA SENNA CU SALATA DE FENICUL
+    weight: 300g
+    price: "75"
+    description: somon marinat cu citrice, mustar, marar, fenicul, rodie
+  - name: CARACATITA LA GRATAR
+    weight: 450g
+    price: "110"
+    description: tentacule caracatita, cartofi aurii, sos aromat, sos aioli
+  - name: FILE DE BIBAN CU BROCCOLI SI SOS DE LAMAIE
+    weight: 300g
     price: "55"
-  - name: FILE LUP DE MARE CU SALSA MAROCANA
-    weight: 250g
-    price: "50"
-    description: ardei california, rodii, ceapa rosie, lamaie, patrunjel, castravete verde
+    description: lup de mare, ardei California, rodie, ceapa rosie, lamaie, patrunjel
   - name: SOMON LA GRATAR
     weight: 200g
-    price: "50"
-  - name: SOMON IN CRUSTA DE CAJU CU SPARANGHEL
-    weight: 200g
-    price: "65"
-  - name: PLATOU MIX FRUCTE DE MARE
-    weight: 600g
-    price: "90"
-    description: creveti, inele si tentacule de calamari, carne de midii, hamsii,
-      masline pane, dovlecei pane, sos tartar
+    price: "55"
   - name: DORADA REGALA LA GRATAR
     weight: 100g
     price: "13"
   - name: SARAMURA DE CRAP CU MAMALIGA
     weight: 800g
-    price: "55"
-  - name: DORADA BUTTERFLY CU CARPACCIO DE VINETE SI DOVLECEI
-    weight: 400g
-    price: "70"
-  - name: CREVETI TEMPURA - PICANTI / NEPICANTI
-    weight: 250g
-    price: "50"
+    price: "62"
+  - name: DORADA IN CRUSTA DE SARE CU BROCCOLI
+    weight: 700g
+    price: "85"
+    description: dorada, sare grunjoasa, busuioc, lamaie, rozmarin, usturoi,
+      cimbrisor, broccoli, ulei de masline
