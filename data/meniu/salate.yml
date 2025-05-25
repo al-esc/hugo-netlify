@@ -1,30 +1,16 @@
 salate:
-  - name: "SALATA CU SOMON FUME"
-    weight: "250g"
-    price: "35"
-    description: "mix de salata, somon fume, icre de somon, capere, rosii cherry, ceapa rosie, pita aromata"
-
-  - name: "SALATA CU PIEPT DE CURCAN"
-    weight: "250g"
-    price: "35"
-    description: "mix de salata, morcov, telina, ardei california, mustar frantuzesc, piept de curcan, pita aromata"
-
-  - name: "SALATA CAESAR"
-    weight: "250g"
-    price: "35"
-    description: "mix de salata, piept de pui la gratar, dressing de maioneza cu anchoa si parmezan, pita aromata"
-
-  - name: "SALATA GRECEASCA"
-    weight: "250g"
-    price: "35"
-    description: "mix de salata, castraveti, rosii, ardei california, branza feta, masline, pita aromata"
-
-  - name: "SALATA CU TON PROASPAT ROSU"
-    weight: "250g"
+  - name: SALATA MEDITERANA
+    weight: 250g
     price: "45"
-    description: "mix de salata, rosii cherry, avocado, capere, ceapa rosie, ou de prepelita, ton rosu"
-
-  - name: "MOZZARELLA CAPRESE"
-    weight: "300g"
-    price: "40"
-    description: "rosii, mozzarella, sos aromat, valeriana"
+    description: mix de salata, castraveti, rosii, ardei California, branza feta,
+      mix de masline, focaccia
+  - name: SALATA CU PIEPT DE CURCAN
+    weight: 250g
+    price: "45"
+    description: mix de salata, morcov, telina, ardei california, mustar frantuzesc,
+      piept de curcan, focaccia
+  - name: SALATA CAESAR
+    weight: 250g
+    price: "45"
+    description: mix de salata, piept de pui la gratar, dressing de maioneza cu
+      anchoa si parmezan, focaccia
