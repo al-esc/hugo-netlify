@@ -101,28 +101,26 @@ drinks:
         price: "35"
   - name: LONG DRINKS & COCKTAILS (300ML.)
     items:
-      - name: MOJITO
-        price: "30"
+      - name: ROYAL MOJITO
+        price: "36"
       - name: NEGRONI
-        price: "30"
+        price: "36"
       - name: COSMOPOLITAN
-        price: "30"
+        price: "36"
       - name: HUGO
-        price: "30"
-      - name: AMARETTO SOUR
-        price: "30"
+        price: "36"
+      - name: DISARONNO SOUR
+        price: "36"
       - name: CUBA LIBRE
-        price: "30"
-      - name: CAMPARI TONIC
-        price: "30"
-      - name: CAMPARI ORANGE
-        price: "30"
-      - name: HIGHBALL
-        price: "30"
-      - name: WHISKY - APPLE / COLA / ENERGY
-        price: "30"
-      - name: VODKA - ORANGE / CRANBERRY / APPLE / TONIC / COLA / ENERGY
-        price: "30"
+        price: "36"
+      - name: SUMMER LA SENNA
+        price: "38"
+      - name: CAMPARI ORANGE/TONIC
+        price: "36"
+      - name: DAIQUIRI
+        price: "36"
+      - name: MARGARITA
+        price: "36"
   - name: NON ALCOHOLIC COCKTAILS (300ML.)
     items:
       - name: GREEN APPLE
