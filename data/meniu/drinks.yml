@@ -16,11 +16,11 @@ drinks:
   - name: VODKA (40ML.)
     items:
       - name: SMIRNOFF RED 40%
-        price: "15"
-      - name: KETEL ONE 40%
-        price: "20"
-      - name: CIROC 40%
-        price: "30"
+        price: "18"
+      - name: SKYY 40%
+        price: "18"
+      - name: GREG GOOSE 40%
+        price: "28"
   - name: GIN (40ML.)
     items:
       - name: GORDON'S DRY 37,5%
