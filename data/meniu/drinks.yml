@@ -52,7 +52,7 @@ drinks:
   - name: TEQUILA (40ML.)
     items:
       - name: JOSE CUERVO GOLD 38%
-        price: "15"
+        price: "20"
   - name: APERITIVES & DIGESTIVES (40ML.)
     items:
       - name: APEROL 11%
