@@ -123,14 +123,16 @@ drinks:
         price: "36"
   - name: NON ALCOHOLIC COCKTAILS (300ML.)
     items:
-      - name: GREEN APPLE
-        price: "25"
-      - name: SEX ON THE BEACH
-        price: "25"
+      - name: TANQUERAY DRIVE
+        price: "35"
+      - name: PASSION TANQUERAY FRUIT
+        price: "35"
       - name: ARIZONA SUNSET
-        price: "25"
-      - name: PASSION FRUIT
-        price: "25"
+        price: "30"
+      - name: GREEN APPLE
+        price: "30"
+      - name: CRODINO SPRITZ NON-ALCOHOLIC APERITIVO
+        price: "30"
   - name: LA PAHAR (140ML.)
     items:
       - name: CAII DE LA LETEA VOL 1
