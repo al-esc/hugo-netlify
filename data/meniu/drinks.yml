@@ -70,15 +70,13 @@ drinks:
   - name: DISTILERIILE BRAN (40ML.)
     items:
       - name: PALINCA PRUNE 50%
-        price: "18"
-      - name: PALINCA GUTUI / CAISE 40%
         price: "20"
+      - name: PALINCA GUTUI / CAISE 40%
+        price: "24"
       - name: RACHIU PRUNE 37,5%
-        price: "15"
+        price: "16"
       - name: AFINATA / VISINATA / CAISATA 30%
-        price: "15"
-      - name: SAMARO (LICHIOR NUCI VERZI) 35%
-        price: "15"
+        price: "20"
   - name: APERITIVO MOMENTS
     items:
       - name: APEROL SPRITZ (180ML)
