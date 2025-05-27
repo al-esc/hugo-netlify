@@ -198,22 +198,26 @@ drinks:
         price: "18"
   - name: BERE IMBUTELIATA
     items:
-      - name: HEINEKEN SILVER 4% (400ML.)
-        price: "12"
+      - name: HEINEKEN SILVER 4% (330ML.)
+        price: "13"
       - name: HEINEKEN (400ML.) 5%
-        price: "12"
+        price: "14"
       - name: CIUC PREMIUM (500ML.) 5%
-        price: "10"
+        price: "13"
       - name: SILVA STRONG DARK (500ML.) 7%
-        price: "12"
+        price: "14"
       - name: BIRRA MORETTI (500ML.) 4,6%
-        price: "11"
+        price: "13"
       - name: DESPERADOS (400ML.) 5,9%
-        price: "12"
+        price: "14"
       - name: EDELWEISS HEFFE NEFILTRATA (500ML.) 5,3%
-        price: "23"
+        price: "24"
       - name: HARGHITA (500ML.) 4,5%
-        price: "12"
+        price: "14"
+      - name: BIRRA MORETTI SALE DI MARE(330ML) 4,8%
+        price: "14"
+      - name: AMSTEL (500ML) 5%
+        price: "13"
   - name: BERE FARA ALCOOL
     items:
       - name: HEINEKEN (330ML.) 0%
