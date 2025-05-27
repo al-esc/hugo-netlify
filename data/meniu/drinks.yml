@@ -46,9 +46,9 @@ drinks:
   - name: COGNACS (40ML.)
     items:
       - name: MARTELL VS 40%
-        price: "25"
+        price: "30"
       - name: BRANCOVEANU XO 40%
-        price: "36"
+        price: "40"
   - name: TEQUILA (40ML.)
     items:
       - name: JOSE CUERVO GOLD 38%
