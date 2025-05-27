@@ -23,7 +23,7 @@ collections:
     files:
       - name: "pork-dishes"
         label: "Porc"
-        file: "data/meniu/desert.yml"
+        file: "data/meniu/pork.yml"
         fields:
           - label: "Meniu Porc"
             name: "pork"

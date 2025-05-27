@@ -12,7 +12,3 @@ desert:
   - name: TORTUL CASEI
     weight: 150g
     price: "25"
-pork:
-  - name: "PORCHETTA "
-    weight: 350gr
-    price: "59"
