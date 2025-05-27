@@ -250,20 +250,16 @@ drinks:
   - name: HOT DRINKS
     items:
       - name: ESPRESSSO (30ML. / 60ML.)
-        price: "12"
+        price: "14"
       - name: ESPRESSSO DECAFF (30ML. / 60ML.)
-        price: "12"
+        price: "16"
       - name: CAPPUCCINO / CAPPUCCINO DECAFF (120ML.)
-        price: "18"
+        price: "23"
       - name: CAFFE LATTE (240ML.)
-        price: "20"
-      - name: FREDO (240ML.)
-        price: "20"
-      - name: CAFFE FRAPPE (240ML.)
         price: "25"
+      - name: CAFFE FRAPPE (240ML.)
+        price: "30"
       - name: CIOCOLATA CALDA (120ML.)
-        price: "20"
+        price: "25"
       - name: CEAI (300ML.)
-        price: "20"
-      - name: BAILEYS IRISH COFFEE (120ML.)
         price: "20"
