@@ -53,20 +53,20 @@ drinks:
     items:
       - name: JOSE CUERVO GOLD 38%
         price: "20"
-  - name: APERITIVES & DIGESTIVES (40ML.)
+  - name: LIQUORS & DIGESTIVES (40ML.)
     items:
-      - name: APEROL 11%
-        price: "15"
-      - name: BAILEYS 17%
-        price: "15"
+      - name: SAMARO-LICHIOR DE NUCI VERZI 35%
+        price: "21"
+      - name: "LIMONCELLO "
+        price: "20"
       - name: CAMPARI 25%
-        price: "15"
+        price: "20"
       - name: CINZANO ROSSO / BIANCO 15%
-        price: "10"
+        price: "18"
       - name: AMARETTO DISARONNO 28%
-        price: "15"
+        price: "20"
       - name: JAGERMEISTER 35%
-        price: "15"
+        price: "22"
   - name: DISTILERIILE BRAN (40ML.)
     items:
       - name: PALINCA PRUNE 50%
