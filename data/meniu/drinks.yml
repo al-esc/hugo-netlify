@@ -178,20 +178,18 @@ drinks:
         price: "100"
   - name: VINURI ROSII
     items:
-      - name: CRAMA DEMATEI
-        price: "200"
-      - name: CAII DE LA LETEA PRINCEPS
-        price: "110"
-      - name: CAII DE LA LETEA VOLUMUL I
-        price: "70"
-      - name: NEGRINI
-        price: "90"
-      - name: PURCARI
+      - name: PRINCE MATEI 2013 14,5%
+        price: "250"
+      - name: CAII DE LA LETEA PRINCEPS QUINTESSENCE RESERVA 14%
+        price: "140"
+      - name: CAII DE LA LETEA VOLUMUL I CABERNET SAUVIGNON 13%
         price: "100"
-      - name: BUDUREASCA
-        price: "90"
-      - name: COTNARI
-        price: "80"
+      - name: NEGRINI NEGRU DE DRAGASANI 13%
+        price: "130"
+      - name: PURCARI NOCTURNE RARA NEAGRA 13.5%
+        price: "120"
+      - name: LA PLAGE RASOVA 14,5%
+        price: "100"
   - name: CIDRU (330ML.)
     items:
       - name: STRONGBOW 4,5%
