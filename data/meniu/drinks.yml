@@ -2,19 +2,17 @@ drinks:
   - name: WHISKEY (40ML.)
     items:
       - name: JOHNNIE WALKER RED LABEL 40%
-        price: "15"
+        price: "20"
       - name: JOHNNIE WALKER BLACK LABEL 12 YO 40%
-        price: "20"
+        price: "25"
       - name: SINGLETON OF DUFFTON 12 YO 40%
-        price: "20"
-      - name: TALISKER 10 YO 45,8%
-        price: "29"
+        price: "25"
       - name: BUSHMILLS IRISH 40%
-        price: "15"
-      - name: BULLEIT BOURBON 45%
         price: "20"
+      - name: BULLEIT BOURBON 45%
+        price: "25"
       - name: GLENMORANGIE 12 YO 43%
-        price: "29"
+        price: "35"
   - name: VODKA (40ML.)
     items:
       - name: SMIRNOFF RED 40%
