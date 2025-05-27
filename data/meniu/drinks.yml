@@ -195,7 +195,7 @@ drinks:
       - name: HEINEKEN 5% (250ML.)
         price: "14"
       - name: HEINEKEN 5% (400ML.)
-        price: "16"
+        price: "18"
   - name: BERE IMBUTELIATA
     items:
       - name: HEINEKEN SILVER 4% (400ML.)
