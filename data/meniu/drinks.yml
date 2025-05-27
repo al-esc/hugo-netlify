@@ -137,10 +137,14 @@ drinks:
         price: "25"
       - name: PASSION FRUIT
         price: "25"
-  - name: VIN LA PAHAR (140ML.)
+  - name: LA PAHAR (140ML.)
     items:
       - name: CAII DE LA LETEA VOL 1
-        price: "15"
+        price: "25"
+      - name: PROSECCO GRANDE VENTO ROSE 11%
+        price: "25"
+      - name: SPUMANTE GRANDE VENTO DOC 11%
+        price: "25"
   - name: VINURI ALBE
     items:
       - name: CAII DE LA LETEA PRINCEPS CHARDONNAY 13,5% / ALIGOTE 13% /SAUVIGNON BLANC
