@@ -162,18 +162,20 @@ drinks:
         price: "100"
   - name: VINURI ROZE
     items:
-      - name: CAII DE LA LETEA PRINCEPS
-        price: "110"
-      - name: CAII DE LA LETEA VOLUMUL I
-        price: "70"
-      - name: BUDUREASCA
-        price: "80"
-      - name: NEGRINI
-        price: "90"
-      - name: NOCTURNE
+      - name: CAII DE LA LETEA PRINCEPS ROSE 13%
+        price: "140"
+      - name: CAII DE LA LETEA VOLUMUL I ROSE 12,5%
         price: "100"
-      - name: COTNARI
-        price: "80"
+      - name: SOLE ROSE RECAS 13%
+        price: "160"
+      - name: NEGRINI ROSE 12,7%
+        price: "120"
+      - name: NEGRINI AGUM ROSE 13%
+        price: "140"
+      - name: NOCTURNE ROSE PURCARI 13%
+        price: "120"
+      - name: LA PLAGE RASOVA ROSE 12,3%
+        price: "100"
   - name: VINURI ROSII
     items:
       - name: CRAMA DEMATEI
