@@ -231,21 +231,22 @@ drinks:
       - name: FRESH PORTOCALE / GRAPEFRUIT (350ML.)
         price: "25"
       - name: LIMONADA CU MENTA SI MIERE (400ML.)
-        price: "23"
-      - name: LIMONADA CU GHIMBIR / PORTOCALE / GREPFRUT (400ML.)
         price: "25"
+      - name: LIMONADA CU GHIMBIR / PORTOCALE / GREPFRUT / CAPSUNI / GUMA DE
+          MESTECAT(400ML.)
+        price: "28"
       - name: APA MINERALA / PLATA (330ML.)
-        price: "9"
+        price: "11"
       - name: APA MINERALA / PLATA (750ML.)
-        price: "15"
-      - name: PEPSI COLA, MAX, TWIST, VINTAGE (250ML.)
-        price: "12"
+        price: "18"
+      - name: PEPSI COLA / MAX / TWIST / VINTAGE (250ML.)
+        price: "16"
       - name: LIPTON ICE TEA (250ML.)
-        price: "12"
+        price: "16"
       - name: PRIGAT NECTAR (250ML.)
-        price: "12"
-      - name: ENERGIZANT ROCKSTAR (250ML.)
-        price: "10"
+        price: "16"
+      - name: MIRINDA / 7UP / EVERVESS TONIC / EVERVESS BITTER LEMON (250ML)
+        price: "16"
   - name: HOT DRINKS
     items:
       - name: ESPRESSSO (30ML. / 60ML.)
