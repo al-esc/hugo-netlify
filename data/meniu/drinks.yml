@@ -38,11 +38,11 @@ drinks:
   - name: RUM (40ML.)
     items:
       - name: CAPTAIN MORGAN SPICED GOLD 35%
-        price: "15"
-      - name: PAMPERO ANIVERSARIO 40%
+        price: "18"
+      - name: APPLETON ESTATE SIGNATUR 40%
         price: "25"
       - name: ZACAPA 23 YO 40%
-        price: "35"
+        price: "40"
   - name: COGNACS (40ML.)
     items:
       - name: MARTELL VS 40%
