@@ -25,16 +25,16 @@ drinks:
     items:
       - name: GORDON'S DRY 37,5%
         price: "15"
-      - name: GORDON'S PINK 37,5%
-        price: "15"
       - name: TANQUERAY LONDON DRY 43,1%
-        price: "15"
+        price: "20"
       - name: TANQUERAY RANGPUR 43,1%
-        price: "15"
+        price: "20"
       - name: TANQUERAY SEVILLA 41,3%
-        price: "15"
+        price: "20"
+      - name: TANQUERAY ROYALE 41,3%
+        price: "20"
       - name: TANQUERAY 0.0% (non-alcoholic)
-        price: "11"
+        price: "18"
   - name: RUM (40ML.)
     items:
       - name: CAPTAIN MORGAN SPICED GOLD 35%
