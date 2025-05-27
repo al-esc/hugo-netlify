@@ -221,13 +221,11 @@ drinks:
   - name: BERE FARA ALCOOL
     items:
       - name: HEINEKEN (330ML.) 0%
-        price: "11"
+        price: "13"
       - name: BIRRA (330ML.) 0%
-        price: "10"
+        price: "13"
       - name: CIUC RADLER (500ML.) 0%
-        price: "10"
-      - name: CIUC ZMEURA SI LAMAIE (500ML.) 0%
-        price: "10"
+        price: "13"
   - name: SOFT DRINKS
     items:
       - name: FRESH PORTOCALE / GRAPEFRUIT (350ML.)
