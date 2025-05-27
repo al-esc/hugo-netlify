@@ -83,12 +83,12 @@ drinks:
         price: "15"
   - name: APERITIVO MOMENTS
     items:
-      - name: APEROL SPRITZ (300ML)
-        price: "28"
-      - name: CAMPARI SPRITZ (300ML)
-        price: "28"
-      - name: CRODINO NON-ALCOHOLIC APERITIVO (175ML)
-        price: "25"
+      - name: APEROL SPRITZ (180ML)
+        price: "35"
+      - name: CAMPARI SPRITZ (180ML)
+        price: "35"
+      - name: LIMONCELLO SPRITZ (200ML)
+        price: "35"
   - name: GIN & TONICS (300ML.)
     items:
       - name: PINK GIN & TONIC
