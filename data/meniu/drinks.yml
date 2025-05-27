@@ -146,18 +146,20 @@ drinks:
       - name: CAII DE LA LETEA PRINCEPS CHARDONNAY 13,5% / ALIGOTE 13% ?SAUVIGNON BLANC
           FUME 12,5%
         price: "140"
-      - name: CAII DE LA LETEA VOLUMUL I
+      - name: CAII DE LA LETEA VOLUMUL I ALIGOTE /SAUVIGNON BLANC 12,5%
         price: "100"
-      - name: SOLO QUINTA
+      - name: SOLO QUINTA RECAS 13%
         price: "210"
-      - name: PURCARI
+      - name: PURCARI NOCTURNE CHARDONNAY 13,5% / PINOT GRIGIO 12%
         price: "120"
       - name: SOLE CHARDONNAY RECAS 13%
         price: "160"
-      - name: NEGRINI
-        price: 90 / 120
-      - name: COTNARI
-        price: 65 / 80
+      - name: NEGRINI SAUVIGNON BLANC & FETEASCA REGALA 13,2%
+        price: "120"
+      - name: NEGRINI AGUM SAUVIGNON BLANC 13,3%
+        price: "140"
+      - name: LA PLAGE RASOVA 12%
+        price: "100"
   - name: VINURI ROZE
     items:
       - name: CAII DE LA LETEA PRINCEPS
