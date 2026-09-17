@@ -1,96 +1,35 @@
-<!-- Special Dishes Section -->
+<!-- Special Dishes Section: today's menu, edited via the CMS (data/meniu/zilnic.yml) -->
+{{- $zilnic := hugo.Data.meniu.zilnic -}}
+{{- $images := slice "img/hero-3.jpg" "img/steak.jpg" "img/hero-2.jpg" "img/steak.jpg" -}}
 <section id="gtco-special-dishes" class="bg-grey section-padding">
     <div class="container">
         <div class="section-content">
             <div class="heading-section text-center">
                 <h6>
-                    {{ dateFormat "2.1.2006" now }}
+                    {{ now.Format "2.1.2006" }}
                 </h6>
                 <h2>
                     Meniul Zilei
                 </h2>
                 <span class="subheading">
-                    {{ .Site.Data.meniu.zilnic.pret }} RON
+                    {{ $zilnic.pret }} RON
                 </span>
             </div>
-            {{ if isset (index .Site.Data.meniu.zilnic "feluri-de-mancare") 0}}
-                <div class="row mt-5">
-                    <div class="col-lg-5 col-md-6 align-self-center py-5 order-1">
-                        <h2 class="special-number">01.</h2>
-                        <div class="dishes-text">
-                            <h3><span>{{ index (index .Site.Data.meniu.zilnic "feluri-de-mancare") 0 }}</span></h3>
-                        </div>
-                    </div>
-                    <div class="d-none d-lg-block col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0 order-2">
-                        <img src='{{ "img/hero-3.jpg" | absURL }}' alt="" class="img-fluid shadow w-50">
+            {{- range $i, $fel := index $zilnic "feluri-de-mancare" }}
+            {{- /* Even rows: text left, image right. Odd rows: image left, text right. */ -}}
+            {{- $textFirst := eq (mod $i 2) 0 }}
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center py-5 order-{{ if $textFirst }}1{{ else }}2{{ end }}">
+                    <h2 class="special-number">{{ printf "%02d" (add $i 1) }}.</h2>
+                    <div class="dishes-text">
+                        <h3><span>{{ $fel }}</span></h3>
                     </div>
                 </div>
-            {{ end }}
-            {{ if isset (index .Site.Data.meniu.zilnic "feluri-de-mancare") 1}}
-                <div class="row mt-5">
-                    <div class="col-lg-5 col-md-6 align-self-center py-5 order-2">
-                        <h2 class="special-number">02.</h2>
-                        <div class="dishes-text">
-                            <h3><span>{{ index (index .Site.Data.meniu.zilnic "feluri-de-mancare") 1 }}</span></h3>
-                        </div>
-                    </div>
-                    <div class="d-none d-lg-block col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0 order-1">
-                        <img src='{{ "img/steak.jpg" | absURL }}' alt="" class="img-fluid shadow w-50">
-                    </div>
+                <div class="d-none d-lg-block col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0 order-{{ if $textFirst }}2{{ else }}1{{ end }}">
+                    <img src='{{ index $images (mod $i (len $images)) | absURL }}' alt="" class="img-fluid shadow w-50">
                 </div>
-            {{ end }}
-            {{ if isset (index .Site.Data.meniu.zilnic "feluri-de-mancare") 2}}
-                <div class="row mt-5">
-                    <div class="col-lg-5 col-md-6 align-self-center py-5 order-1">
-                        <h2 class="special-number">03.</h2>
-                        <div class="dishes-text">
-                            <h3><span>{{ index (index .Site.Data.meniu.zilnic "feluri-de-mancare") 2 }}</span></h3>
-                        </div>
-                    </div>
-                    <div class="d-none d-lg-block col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0 order-2">
-                        <img src='{{ "img/hero-2.jpg" | absURL }}' alt="" class="img-fluid shadow w-50">
-                    </div>
-                </div>
-            {{ end }}
-            {{ if isset (index .Site.Data.meniu.zilnic "feluri-de-mancare") 3}}
-                <div class="row mt-5">
-                    <div class="col-lg-5 col-md-6 align-self-center py-5 order-2">
-                        <h2 class="special-number">04.</h2>
-                        <div class="dishes-text">
-                            <h3><span>{{ index (index .Site.Data.meniu.zilnic "feluri-de-mancare") 3 }}</span></h3>
-                        </div>
-                    </div>
-                    <div class="d-none d-lg-block col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0 order-1">
-                        <img src='{{ "img/steak.jpg" | absURL }}' alt="" class="img-fluid shadow w-50">
-                    </div>
-                </div>
-            {{ end }}
-            {{ if isset (index .Site.Data.meniu.zilnic "feluri-de-mancare") 4}}
-                <div class="row mt-5">
-                    <div class="col-lg-5 col-md-6 align-self-center py-5 order-1">
-                        <h2 class="special-number">04.</h2>
-                        <div class="dishes-text">
-                            <h3><span>{{ index (index .Site.Data.meniu.zilnic "feluri-de-mancare") 4 }}</span></h3>
-                        </div>
-                    </div>
-                    <div class="d-none d-lg-block col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0 order-2">
-                        <img src='{{ "img/steak.jpg" | absURL }}' alt="" class="img-fluid shadow w-50">
-                    </div>
-                </div>
-            {{ end }}
-            {{ if isset (index .Site.Data.meniu.zilnic "feluri-de-mancare") 5}}
-                <div class="row mt-5">
-                    <div class="col-lg-5 col-md-6 align-self-center py-5 order-2">
-                        <h2 class="special-number">04.</h2>
-                        <div class="dishes-text">
-                            <h3><span>{{ index (index .Site.Data.meniu.zilnic "feluri-de-mancare") 5 }}</span></h3>
-                        </div>
-                    </div>
-                    <div class="d-none d-lg-block col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0 order-1">
-                        <img src='{{ "img/steak.jpg" | absURL }}' alt="" class="img-fluid shadow w-50">
-                    </div>
-                </div>
-            {{ end }}
+            </div>
+            {{- end }}
         </div>
     </div>
 </section>

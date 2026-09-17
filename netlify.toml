@@ -1,30 +1,37 @@
+# Netlify build configuration.
+# Settings here take precedence over the build settings in the Netlify UI,
+# so the deploy no longer depends on the UI's "yarn build" command.
+# This is a plain Hugo site: no Node, npm or yarn is needed to build it.
+
 [build]
-publish = "public"
-command = "hugo --gc --minify"
+  publish = "public"
+  command = "hugo --gc --minify"
+
+[build.environment]
+  # Netlify downloads this exact Hugo release at build time.
+  # Keep in sync with the version noted in README.md.
+  HUGO_VERSION = "0.166.0"
 
 [context.production.environment]
-HUGO_VERSION = "0.62.2"
-HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
-
-[context.split1]
-command = "hugo --gc --minify --enableGitInfo"
-
-[context.split1.environment]
-HUGO_VERSION = "0.62.2"
-HUGO_ENV = "production"
+  HUGO_ENV = "production"
 
 [context.deploy-preview]
-command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
-
-[context.deploy-preview.environment]
-HUGO_VERSION = "0.62.2"
+  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
-[context.branch-deploy.environment]
-HUGO_VERSION = "0.62.2"
+# Basic hardening headers. These do not affect the Decap CMS admin
+# (same origin) or the Netlify Identity widget (loaded into our page).
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
 
-[context.next.environment]
-HUGO_ENABLEGITINFO = "true"
+# The CMS admin must never be indexed.
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"

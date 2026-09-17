@@ -1,0 +1,19 @@
+baseURL = "https://lasenna.ro/"
+title = "Restaurant La Senna"
+theme = "resto-hugo"
+locale = "ro"
+defaultContentLanguage = "ro"
+disableKinds = ["taxonomy", "term"]
+disableHugoGeneratorInject = true
+copyright = "<i class='subheading fas fa-code'></i> with <i class='subheading fas fa-heart'></i> by <a target='_blank' href='https://alesc.dev'>alesc.dev</a>" # HTML tags supported
+
+# Theme specific configuration
+[params]
+  logo = "img/logo.png"
+  enableDisqus = false # enable / disable comments for blog posts
+  enableGA = false # enable / disable google analytics
+  heroText = "Restaurant <br> La Senna"
+  footerText = "Ramai la curent cu toate noutatile Restaurantului La Senna urmarindu-ne pe retelele de socializare!"
+  facebook = "https://www.facebook.com/restaurantlasenna/"
+  twitter = "https://twitter.com"
+  instagram = "https://instagram.com"

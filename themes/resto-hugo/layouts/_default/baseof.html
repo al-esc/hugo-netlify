@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<html lang="{{ or site.Language.Locale "en-US" }}">
     {{- partial "head.html" . -}}
     {{- partial "header.html" . -}}
-    <body>
-	    {{- partial "nav.html" . -}}        
+    <body{{ if .IsHome }} data-spy="scroll" data-target="#navbar" class="static-layout"{{ end }}>
+	    {{- partial "nav.html" . -}}
         {{- block "main" . }}{{- end }}
         {{- partial "footer.html" . -}}
     </body>

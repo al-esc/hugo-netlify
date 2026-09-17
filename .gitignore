@@ -1,1 +1,12 @@
-.idea
+# Hugo build output and caches (Netlify builds these; never commit them)
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# Local tooling: install Hugo with your package manager instead of committing binaries
+/bin/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store

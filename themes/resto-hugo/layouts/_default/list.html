@@ -1,7 +1,7 @@
 {{define "main"}}
 <section class="container">
         <h2 class="text-center">{{.Title}}</h2>
-    {{if eq .Kind "taxonomyTerm"}}
+    {{if eq .Kind "taxonomy"}}
             {{range $key, $value := .Data.Terms.Alphabetical}}
                 <span class='badge badge-dark'><a class='text-white' href='{{ "tags/" | absURL }}{{ $value.Name | lower }}'>{{ $value.Name }}</a></span>
             {{end}}
